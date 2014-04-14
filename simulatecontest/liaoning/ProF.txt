@@ -1,0 +1,22 @@
+Problem F: Euler function
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 17  Solved: 5
+[Submit][Status][Web Board]
+Description
+   I think you know The Euler Phi Function .Given a number M, The Euler Phi Function can calculate that how many numbers which are smaller than M ,are prime to the M. But this question may be much easier. Now , we have a little more difficult problem .Give you two numbers N and M(1< N,M <10^13). You should give me how many numbers which are smaller than M, prime to both N and M.
+Input
+ There are several test cases.
+ Each line contains two numbers, N and M.
+ Input terminated by EOF.
+Output
+ A single integer in one line for each case.
+Sample Input
+10 15
+5 15
+43 14
+
+Sample Output
+4
+8
+6
+

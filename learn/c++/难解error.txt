@@ -1,0 +1,3 @@
+在using处出现error: expected unqualified-id before '(anything)'：
+在(anything)前有错，比如类定义后面漏了；
+

@@ -1,0 +1,18 @@
+Table in function gcd:
+                Name      Type Size
+                   u       int    /
+                   v       int    /
+
+Table in function main:
+                Name      Type Size
+                   x       int    /
+                   y  intarray    2
+
+Global:
+Functions:
+                Name Parameter
+                 gcd       int       int
+                main      void
+Table in Global:
+                Name      Type Size
+

@@ -1,0 +1,14 @@
+1
+2
+.b
+a.
+**
+*.
+7
+b
+ab
+ba
+aaaa
+aaa
+a
+aa

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>HelloServlet</display-name>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>my.servlets.HelloServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GenericServlet</servlet-name>
+    <servlet-class>my.servlets.GenericServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>request</servlet-name>
+    <servlet-class>my.servlets.request</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>httpServletTest</servlet-name>
+    <servlet-class>my.servlets.httpServletTest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <servlet-class>my.servlets.CheckCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>my.servlets.LoginServlet</servlet-class>
+    	<init-param>
+    		<param-name>name</param-name>
+    		<param-value>ltf</param-value>
+		</init-param>
+    	<init-param>
+    		<param-name>password</param-name>
+    		<param-value>1234</param-value>
+    	</init-param></servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/servlet/HelloServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GenericServlet</servlet-name>
+    <url-pattern>/servlet/GenericServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>request</servlet-name>
+    <url-pattern>/servlet/request</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>httpServletTest</servlet-name>
+    <url-pattern>/servlet/httpServletTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <url-pattern>/example/CheckCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/example/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
+

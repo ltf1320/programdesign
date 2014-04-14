@@ -1,0 +1,35 @@
+2
+20
+abbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbb
+dbbbbbbbbbbbbbbbbbbb
+ebbbbbbbbbbbbbbbbbbb
+fbbbbbbbbbbbbbbbbbbb
+gbbbbbbbbbbbbbbbbbbb
+hbbbbbbbbbbbbbbbbbbb
+ibbbbbbbbbbbbbbbbbbb
+jbbbbbbbbbbbbbbbbbbb
+1bbbbbbbbbbbbbbbbbbb
+2bbbbbbbbbbbbbbbbbbb
+3bbbbbbbbbbbbbbbbbbb
+4bbbbbbbbbbbbbbbbbbb
+5bbbbbbbbbbbbbbbbbbb
+6bbbbbbbbbbbbbbbbbbb
+7bbbbbbbbbbbbbbbbbbb
+8bbbbbbbbbbbbbbbbbbb
+9bbbbbbbbbbbbbbbbbbb
+0bbbbbbbbbbbbbbbbbbb
+2
+a 0.5
+b 0.5
+100
+
+3
+ab
+ba
+aa
+2
+a 0.2
+b 0.8
+10

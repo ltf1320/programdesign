@@ -1,0 +1,756 @@
+------------------
+System Information
+------------------
+Time of this report: 1/3/2007, 19:14:04
+       Machine name: LRH
+   Operating System: Windows XP Professional (5.1, Build 2600) Service Pack 1 (2600.xpsp1.020828-1920)
+           Language: Chinese (Regional Setting: Chinese)
+System Manufacturer: INTELR
+       System Model: AWRDACPI
+               BIOS: Phoenix - AwardBIOS v6.00PG
+          Processor: Intel(R) Pentium(R) 4 CPU 3.00GHz (2 CPUs), ~3.0GHz
+             Memory: 512MB RAM
+          Page File: 395MB used, 855MB available
+        Windows Dir: C:\WINDOWS
+    DirectX Version: DirectX 9.0c (4.09.0000.0904)
+DX Setup Parameters: None
+     DxDiag Version: 5.03.0001.0904 32bit Unicode
+
+------------
+DxDiag Notes
+------------
+  DirectX Files Tab: The file ddraw.dll is an old version, which could cause problems. You should reinstall DirectX to get the latest version.
+      Display Tab 1: No problems found. DirectDraw test results: All tests were successful. Direct3D 7 test results: All tests were successful. Direct3D 8 test results: All tests were successful. Direct3D 9 test results: The tests were cancelled before completing.
+        Sound Tab 1: The file ALCXWDM.SYS is not digitally signed, which means that it has not been tested by Microsoft's Windows Hardware Quality Labs (WHQL).  You may be able to get a WHQL logo'd driver from the hardware manufacturer.
+          Music Tab: DirectMusic test results: All tests were successful.
+          Input Tab: No problems found.
+        Network Tab: The registry information for the service provider 'DirectPlay8 TCP/IP Service Provider' is missing or damaged.  You should reinstall DirectX. The registry information for the service provider 'DirectPlay8 IPX Service Provider' is missing or damaged.  You should reinstall DirectX. The registry information for the service provider 'DirectPlay8 Modem Service Provider' is missing or damaged.  You should reinstall DirectX. The registry information for the service provider 'DirectPlay8 Serial Service Provider' is missing or damaged.  You should reinstall DirectX. You should reinstall DirectX to get the latest version. Problems were found in the system registry.  Details are available in the saved text file.
+
+--------------------
+DirectX Debug Levels
+--------------------
+Direct3D:    0/4 (n/a)
+DirectDraw:  0/4 (retail)
+DirectInput: 0/5 (n/a)
+DirectMusic: 0/5 (n/a)
+DirectPlay:  0/9 (retail)
+DirectSound: 0/5 (retail)
+DirectShow:  0/6 (retail)
+
+---------------
+Display Devices
+---------------
+        Card name: RADEON X300/X550 Series
+     Manufacturer: ATI Technologies Inc.
+        Chip type: RADEON X300/X550 Series (0x5B60)
+         DAC type: Internal DAC(400MHz)
+       Device Key: Enum\PCI\VEN_1002&DEV_5B60&SUBSYS_34161642&REV_00
+   Display Memory: 128.0 MB
+     Current Mode: 1024 x 768 (32 bit) (75Hz)
+          Monitor:   Monitor Max Res: 1600,1200
+      Driver Name: ati2dvag.dll
+   Driver Version: 6.14.0010.6606 (English)
+      DDI Version: 9 (or higher)
+Driver Attributes: Final Retail
+ Driver Date/Size: 3/22/2006 11:56:42, 257536 bytes
+      WHQL Logo'd: Yes
+  WHQL Date Stamp: n/a
+              VDD:          Mini VDD: ati2mtag.sys
+    Mini VDD Date: 3/22/2006 11:56:22, 1522688 bytes
+Device Identifier: {D7B71EE2-1820-11CF-3C6C-1C14A1C2CB35}
+        Vendor ID: 0x1002
+        Device ID: 0x5B60
+        SubSys ID: 0x34161642
+      Revision ID: 0x0000
+      Revision ID: 0x0000
+      Video Accel: ModeMPEG2_C ModeMPEG2_D ModeWMV8_B ModeWMV8_A ModeWMV9_B ModeWMV9_A 
+ Deinterlace Caps: {6E8329FF-B642-418B-BCF0-BCB6591E255F}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                   {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                   {552C0DAD-CCBC-420B-83C8-74943CF9F1A6}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,2) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                   {6E8329FF-B642-418B-BCF0-BCB6591E255F}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                   {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+         Registry: OK
+     DDraw Status: Enabled
+       D3D Status: Enabled
+       AGP Status: Enabled
+DDraw Test Result: All tests were successful.
+ D3D7 Test Result: All tests were successful.
+ D3D8 Test Result: All tests were successful.
+ D3D9 Test Result: The tests were cancelled before completing.
+
+-------------
+Sound Devices
+-------------
+            Description: Realtek AC97 Audio
+ Default Sound Playback: Yes
+ Default Voice Playback: Yes
+            Hardware ID: PCI\VEN_8086&DEV_266E&SUBSYS_1B711019&REV_04
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: ALCXWDM.SYS
+         Driver Version: 5.10.0000.6070 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: No
+          Date and Size: 4/21/2006 11:16:44, 3964352 bytes
+            Other Files: 
+        Driver Provider: Realtek Semiconductor Corp.
+         HW Accel Level: Full
+              Cap Flags: 0xF5F
+    Min/Max Sample Rate: 8000, 192000
+Static/Strm HW Mix Bufs: 26, 25
+ Static/Strm HW 3D Bufs: 26, 25
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: Yes, Yes
+   I3DL2(tm) Listen/Src: Yes, Yes
+Sensaura(tm) ZoomFX(tm): No
+               Registry: OK
+      Sound Test Result: The tests were cancelled before completing.
+
+---------------------
+Sound Capture Devices
+---------------------
+            Description: Realtek AC97 Audio
+  Default Sound Capture: Yes
+  Default Voice Capture: Yes
+            Driver Name: ALCXWDM.SYS
+         Driver Version: 5.10.0000.6070 (English)
+      Driver Attributes: Final Retail
+          Date and Size: 4/21/2006 11:16:44, 3964352 bytes
+              Cap Flags: 0x41
+           Format Flags: 0xFFF
+
+-----------
+DirectMusic
+-----------
+        DLS Path: C:\WINDOWS\SYSTEM32\drivers\GM.DLS
+     DLS Version: 1.00.0016.0002
+    Acceleration: n/a
+           Ports: Microsoft Synthesizer, Software (Not Kernel Mode), Output, DLS, Internal, Default Port
+                  Realtek AC97 Audio, Software (Kernel Mode), Output, DLS, Internal
+                  Microsoft MIDI                   Microsoft GS         Registry: OK
+     Test Result: All tests were successful.
+
+-------------------
+DirectInput Devices
+-------------------
+      Device Name:          Attached: 1
+    Controller ID: n/a
+Vendor/Product ID: n/a
+        FF Driver: n/a
+
+      Device Name:          Attached: 1
+    Controller ID: n/a
+Vendor/Product ID: n/a
+        FF Driver: n/a
+
+Poll w/ Interrupt: No
+         Registry: OK
+
+-----------
+USB Devices
+-----------
++ USB Root Hub
+| Vendor/Product ID: 0x8086, 0x265A
+| Matching Device ID: usb\root_hub
+| Service: usbhub
+| Driver: usbhub.sys, 8/29/2002 01:32:50, 51968 bytes
+| Driver: usbd.sys, 3/15/2003 00:00:00, 4736 bytes
+
+----------------
+Gameport Devices
+----------------
+
+------------
+PS/2 Devices
+------------
++ | Matching Device ID: *pnp0303
+| Service: i8042prt
+| Driver: i8042prt.sys, 3/15/2003 00:00:00, 45952 bytes
+| Driver: kbdclass.sys, 3/15/2003 00:00:00, 22144 bytes
+| 
++ Terminal Server Keyboard Driver
+| Matching Device ID: root\rdp_kbd
+| Upper Filters: kbdclass
+| Service: TermDD
+| Driver: termdd.sys, 9/9/2002 15:54:06, 38024 bytes
+| Driver: kbdclass.sys, 3/15/2003 00:00:00, 22144 bytes
+| 
++ PS/2 Compatible Mouse
+| Matching Device ID: *pnp0f13
+| Service: i8042prt
+| Driver: i8042prt.sys, 3/15/2003 00:00:00, 45952 bytes
+| Driver: mouclass.sys, 3/15/2003 00:00:00, 20736 bytes
+| 
++ Terminal Server Mouse Driver
+| Matching Device ID: root\rdp_mou
+| Upper Filters: mouclass
+| Service: TermDD
+| Driver: termdd.sys, 9/9/2002 15:54:06, 38024 bytes
+| Driver: mouclass.sys, 3/15/2003 00:00:00, 20736 bytes
+
+----------------------------
+DirectPlay Service Providers
+----------------------------
+DirectPlay8 TCP/IP Service Provider - Registry: Error, File:  ()
+DirectPlay8 IPX Service Provider - Registry: Error, File:  ()
+DirectPlay8 Modem Service Provider - Registry: Error, File:  ()
+DirectPlay8 Serial Service Provider - Registry: Error, File:  ()
+Internet TCP/IP Connection For DirectPlay - Registry: OK, File: dpwsockx.dll (5.03.0001.0904)
+IPX Connection For DirectPlay - Registry: OK, File: dpwsockx.dll (5.03.0001.0904)
+Modem Connection For DirectPlay - Registry: OK, File: dpmodemx.dll (5.03.0000.0900)
+Serial Connection For DirectPlay - Registry: OK, File: dpmodemx.dll (5.03.0000.0900)
+
+DirectPlay Voice Wizard Tests: Full Duplex: Not run, Half Duplex: Not run, Mic: Not run
+DirectPlay Test Result: Not run
+
+Registry Errors Found:
+Key 'HKCR\DirectPlay8Address.Address.1\CLSID' is missing.
+Key 'HKCR\DirectPlay8Address.Address.1' is missing.
+Key 'HKCR\DirectPlay8Address.Address\CurVer' is missing.
+Key 'HKCR\DirectPlay8Address.Address\CLSID' is missing.
+Key 'HKCR\DirectPlay8Address.Address' is missing.
+Key 'HKCR\CLSID\{934A9523-A3CA-4BC5-ADA0-D6D95D979421}\VersionIndependentProgID' is missing.
+Key 'HKCR\CLSID\{934A9523-A3CA-4BC5-ADA0-D6D95D979421}\ProgID' is missing.
+Key 'HKCR\CLSID\{934A9523-A3CA-4BC5-ADA0-D6D95D979421}\InprocServer32' is missing.
+Key 'HKCR\CLSID\{934A9523-A3CA-4BC5-ADA0-D6D95D979421}\InprocServer32' is missing.
+Key 'HKCR\CLSID\{934A9523-A3CA-4BC5-ADA0-D6D95D979421}\InprocServer32' is missing.
+Key 'HKCR\CLSID\{934A9523-A3CA-4BC5-ADA0-D6D95D979421}' is missing.
+Key 'HKCR\DirectPlay8Lobby.LobbiedApplication.1\CLSID' is missing.
+Key 'HKCR\DirectPlay8Lobby.LobbiedApplication.1' is missing.
+Key 'HKCR\DirectPlay8Lobby.LobbiedApplication\CurVer' is missing.
+Key 'HKCR\DirectPlay8Lobby.LobbiedApplication\CLSID' is missing.
+Key 'HKCR\DirectPlay8Lobby.LobbiedApplication' is missing.
+Key 'HKCR\CLSID\{667955AD-6B3B-43CA-B949-BC69B5BAFF7F}\VersionIndependentProgID' is missing.
+Key 'HKCR\CLSID\{667955AD-6B3B-43CA-B949-BC69B5BAFF7F}\ProgID' is missing.
+Key 'HKCR\CLSID\{667955AD-6B3B-43CA-B949-BC69B5BAFF7F}\InprocServer32' is missing.
+Key 'HKCR\CLSID\{667955AD-6B3B-43CA-B949-BC69B5BAFF7F}\InprocServer32' is missing.
+Key 'HKCR\CLSID\{667955AD-6B3B-43CA-B949-BC69B5BAFF7F}\InprocServer32' is missing.
+Key 'HKCR\CLSID\{667955AD-6B3B-43CA-B949-BC69B5BAFF7F}' is missing.
+Key 'HKCR\DirectPlay8Lobby.LobbyClient.1\CLSID' is missing.
+Key 'HKCR\DirectPlay8Lobby.LobbyClient.1' is missing.
+Key 'HKCR\DirectPlay8Lobby.LobbyClient\CurVer' is missing.
+Key 'HKCR\DirectPlay8Lobby.LobbyClient\CLSID' is missing.
+Key 'HKCR\DirectPlay8Lobby.LobbyClient' is missing.
+Key 'HKCR\CLSID\{3B2B6775-70B6-45AF-8DEA-A209C69559F3}\VersionIndependentProgID' is missing.
+Key 'HKCR\CLSID\{3B2B6775-70B6-45AF-8DEA-A209C69559F3}\ProgID' is missing.
+Key 'HKCR\CLSID\{3B2B6775-70B6-45AF-8DEA-A209C69559
+-------------------
+DirectPlay Adapters
+-------------------
+
+-----------------------
+DirectPlay Voice Codecs
+-----------------------
+Voxware VR12 1.4kbit/s
+Voxware SC06 6.4kbit/s
+Voxware SC03 3.2kbit/s
+MS-PCM 64 kbit/s
+MS-ADPCM 32.8 kbit/s
+Microsoft GSM 6.10 13 kbit/s
+TrueSpeech(TM) 8.6 kbit/s
+
+-------------------------
+DirectPlay Lobbyable Apps
+-------------------------
+
+------------------------
+Disk & DVD/CD-ROM Drives
+------------------------
+      Drive: C:
+ Free Space: 6.5 GB
+Total Space: 10.0 GB
+File System: FAT32
+      Model: SAMSUNG SP0812C
+
+      Drive: D:
+ Free Space: 1.2 GB
+Total Space: 20.0 GB
+File System: NTFS
+      Model: SAMSUNG SP0812C
+
+      Drive: E:
+ Free Space: 15.9 GB
+Total Space: 20.8 GB
+File System: FAT32
+      Model: SAMSUNG SP0812C
+
+      Drive: F:
+ Free Space: 19.9 GB
+Total Space: 21.5 GB
+File System: FAT32
+      Model: SAMSUNG SP0812C
+
+      Drive: H:
+      Model: SONY CD-RW  CRX320EE
+     Driver: c:\windows\system32\drivers\cdrom.sys, 5.01.2600.1106 (Chinese), 3/15/2003 00:00:00, 47488 bytes
+
+--------------
+System Devices
+--------------
+     Name: Realtek AC'97 Audio
+Device ID: PCI\VEN_8086&DEV_266E&SUBSYS_1B711019&REV_04\3&2411E6FE&0&F2
+   Driver: C:\WINDOWS\system32\drivers\drmk.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:34, 57856 bytes
+   Driver: C:\WINDOWS\system32\drivers\portcls.sys, 5.01.2600.1106 (English), 8/29/2002 02:01:00, 134272 bytes
+   Driver: C:\WINDOWS\system32\drivers\stream.sys, 5.03.0001.0904 (Chinese), 7/9/2004 04:27:28, 48512 bytes
+   Driver: C:\WINDOWS\System32\wdmaud.drv, 5.01.2600.0000 (English), 8/31/2001 16:04:38, 22016 bytes
+   Driver: C:\WINDOWS\System32\ksuser.dll, 5.01.2600.0000 (Chinese), 8/31/2001 16:03:02, 4096 bytes
+   Driver: C:\WINDOWS\system32\drivers\ALCXWDM.SYS, 5.10.0000.6070 (English), 4/21/2006 11:16:44, 3964352 bytes
+   Driver: C:\WINDOWS\SOUNDMAN.EXE, 5.01.0000.0052 (English), 3/1/2006 16:22:04, 577536 bytes
+   Driver: C:\WINDOWS\System32\ALSNDMGR.CPL, 2.02.0000.0058 (English), 4/20/2006 17:01:06, 18788352 bytes
+   Driver: C:\WINDOWS\System32\ALSNDMGR.WAV, 2/5/2002 13:54:58, 141016 bytes
+   Driver: C:\WINDOWS\System32\RTLCPL.EXE, 1.00.0001.0059 (English), 4/20/2006 17:23:54, 10524672 bytes
+   Driver: C:\WINDOWS\System32\RTLCPAPI.dll, 1.00.0000.0009 (English), 1/10/2006 13:38:30, 135168 bytes
+   Driver: C:\WINDOWS\Alcrmv.exe, 2.00.0000.0003 (English), 11/18/2005 11:20:26, 217088 bytes
+
+     Name: Intel(R) 82801FB/FBM SMBus Controller - 266A
+Device ID: PCI\VEN_8086&DEV_266A&SUBSYS_1B711019&REV_04\3&2411E6FE&0&FB
+   Driver: n/a
+
+     Name: Intel(R) 82801FB/FBM USB2 Enhanced Host Controller - 265C
+Device ID: PCI\VEN_8086&DEV_265C&SUBSYS_1B711019&REV_04\3&2411E6FE&0&EF
+   Driver: C:\WINDOWS\system32\drivers\usbehci.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:50, 19328 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:52, 135552 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:50, 51968 bytes
+   Driver: C:\WINDOWS\System32\hccoin.dll, 5.01.2600.1106 (English), 3/15/2003 00:00:00, 5120 bytes
+   Driver: C:\WINDOWS\System32\usbui.dll, 5.01.2600.0000 (Chinese), 8/31/2001 16:03:54, 67072 bytes
+
+     Name: Intel(R) 82801FB/FBM USB Universal Host Controller - 265B
+Device ID: PCI\VEN_8086&DEV_265B&SUBSYS_1B711019&REV_04\3&2411E6FE&0&EB
+   Driver: C:\WINDOWS\system32\drivers\usbuhci.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:50, 19328 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:52, 135552 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:50, 51968 bytes
+   Driver: C:\WINDOWS\System32\usbui.dll, 5.01.2600.0000 (Chinese), 8/31/2001 16:03:54, 67072 bytes
+
+     Name: Intel(R) 82801FB/FBM USB Universal Host Controller - 265A
+Device ID: PCI\VEN_8086&DEV_265A&SUBSYS_1B711019&REV_04\3&2411E6FE&0&EA
+   Driver: C:\WINDOWS\system32\drivers\usbuhci.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:50, 19328 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:52, 135552 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:50, 51968 bytes
+   Driver: C:\WINDOWS\System32\usbui.dll, 5.01.2600.0000 (Chinese), 8/31/2001 16:03:54, 67072 bytes
+
+     Name: Intel(R) 82801FB/FBM USB Universal Host Controller - 2659
+Device ID: PCI\VEN_8086&DEV_2659&SUBSYS_1B711019&REV_04\3&2411E6FE&0&E9
+   Driver: C:\WINDOWS\system32\drivers\usbuhci.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:50, 19328 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:52, 135552 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:50, 51968 bytes
+   Driver: C:\WINDOWS\System32\usbui.dll, 5.01.2600.0000 (Chinese), 8/31/2001 16:03:54, 67072 bytes
+
+     Name: Intel(R) 82801FB/FBM USB Universal Host Controller - 2658
+Device ID: PCI\VEN_8086&DEV_2658&SUBSYS_1B711019&REV_04\3&2411E6FE&0&E8
+   Driver: C:\WINDOWS\system32\drivers\usbuhci.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:50, 19328 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:52, 135552 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 5.01.2600.1106 (English), 8/29/2002 01:32:50, 51968 bytes
+   Driver: C:\WINDOWS\System32\usbui.dll, 5.01.2600.0000 (Chinese), 8/31/2001 16:03:54, 67072 bytes
+
+     Name: Intel(R) 82801FB Ultra ATA Storage Controllers - 2651
+Device ID: PCI\VEN_8086&DEV_2651&SUBSYS_1B711019&REV_04\3&2411E6FE&0&FA
+   Driver: C:\WINDOWS\System32\DRIVERS\pciide.sys, 5.01.2600.0000 (Chinese), 8/31/2001 15:42:54, 3328 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\pciidex.sys, 5.01.2600.1106 (Chinese), 8/29/2002 01:27:48, 23680 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\atapi.sys, 5.01.2600.1106 (English), 8/29/2002 01:27:50, 86912 bytes
+
+     Name: Intel(R) 82801FB LPC Interface Controller - 2640
+Device ID: PCI\VEN_8086&DEV_2640&SUBSYS_00000000&REV_04\3&2411E6FE&0&F8
+   Driver: C:\WINDOWS\System32\DRIVERS\isapnp.sys, 5.01.2600.0000 (Chinese), 8/31/2001 15:24:48, 35840 bytes
+
+     Name: Intel(R) 915G/P/GV/GL/PL/910GE/GL PCI Express Root Port - 2581
+Device ID: PCI\VEN_8086&DEV_2581&SUBSYS_00000000&REV_04\3&2411E6FE&0&08
+   Driver: C:\WINDOWS\System32\DRIVERS\pci.sys, 5.01.2600.1106 (Chinese), 9/9/2002 15:36:26, 60928 bytes
+
+     Name: Intel(R) 915G/P/GV/GL/PL/910GE/GL Processor to I/O Controller - 2580
+Device ID: PCI\VEN_8086&DEV_2580&SUBSYS_00000000&REV_04\3&2411E6FE&0&00
+   Driver: n/a
+
+     Name: Intel(R) 82801 PCI Bridge - 244E
+Device ID: PCI\VEN_8086&DEV_244E&SUBSYS_00000000&REV_D4\3&2411E6FE&0&F0
+   Driver: C:\WINDOWS\System32\DRIVERS\pci.sys, 5.01.2600.1106 (Chinese), 9/9/2002 15:36:26, 60928 bytes
+
+     Name: Realtek RTL8139 Family PCI Fast Ethernet NIC
+Device ID: PCI\VEN_10EC&DEV_8139&SUBSYS_813910EC&REV_10\4&1BFBBC0A&0&28F0
+   Driver: C:\WINDOWS\System32\DRIVERS\RTL8139.sys, 5.396.0530.2001 (English), 8/17/2001 12:12:42, 23070 bytes
+
+     Name: RADEON X300/X550 Series Secondary
+Device ID: PCI\VEN_1002&DEV_5B70&SUBSYS_34171642&REV_00\4&A0C09A8&0&0108
+   Driver: C:\WINDOWS\System32\DRIVERS\ati2mtag.sys, 6.14.0010.6606 (Chinese), 3/22/2006 11:56:22, 1522688 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\ati2erec.dll, 1.00.0000.0005 (English), 3/22/2006 11:17:10, 40960 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\ativvpxx.vp, 3/22/2006 12:12:34, 27504 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\ativckxx.vp, 10/14/2005 23:10:12, 58560 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\ativcaxx.vp, 2/9/2006 05:44:06, 929 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\ativcaxx.cpa, 2/9/2006 05:44:06, 1114674 bytes
+   Driver: C:\WINDOWS\System32\ati2dvag.dll, 6.14.0010.6606 (English), 3/22/2006 11:56:42, 257536 bytes
+   Driver: C:\WINDOWS\System32\ati2cqag.dll, 6.14.0010.0311 (English), 3/22/2006 11:12:24, 258048 bytes
+   Driver: C:\WINDOWS\System32\Ati2mdxx.exe, 6.14.0010.2495 (English), 3/22/2006 11:50:30, 26112 bytes
+   Driver: C:\WINDOWS\System32\ati3duag.dll, 6.14.0010.0392 (English), 3/22/2006 11:40:12, 2662688 bytes
+   Driver: C:\WINDOWS\System32\ativvaxx.dll, 6.14.0001.0095 (English), 3/22/2006 11:33:40, 1130752 bytes
+   Driver: C:\WINDOWS\System32\atiicdxx.dat, 2/14/2006 04:29:26, 121995 bytes
+   Driver: C:\WINDOWS\System32\ATIDDC.DLL, 6.14.0010.0008 (English), 3/22/2006 11:48:18, 53248 bytes
+   Driver: C:\WINDOWS\System32\atitvo32.dll, 6.14.0010.4200 (English), 3/22/2006 11:17:54, 17408 bytes
+   Driver: C:\WINDOWS\System32\ativcoxx.dll, 6.13.0010.0005 (English), 11/10/2001 00:01:04, 24064 bytes
+   Driver: C:\WINDOWS\System32\ati2evxx.exe, 6.14.0010.4131 (English), 3/22/2006 11:48:56, 405504 bytes
+   Driver: C:\WINDOWS\System32\ati2evxx.dll, 6.14.0010.4131 (English), 3/22/2006 11:50:10, 61440 bytes
+   Driver: C:\WINDOWS\System32\atipdlxx.dll, 6.14.0010.2498 (English), 3/22/2006 11:50:50, 114688 bytes
+   Driver: C:\WINDOWS\System32\Oemdspif.dll, 6.14.0001.0016 (English), 3/22/2006 11:50:36, 77824 bytes
+   Driver: C:\WINDOWS\System32\ati2edxx.dll, 6.14.0010.2500 (English), 3/22/2006 11:50:22, 41984 bytes
+   Driver: C:\WINDOWS\System32\atikvmag.dll, 6.14.0010.0035 (Chinese), 3/22/2006 11:18:34, 151552 bytes
+   Driver: C:\WINDOWS\System32\ATIDEMGR.dll, 1.02.2271.38961 (Chinese), 3/22/2006 10:38:46, 286720 bytes
+   Driver: C:\WINDOWS\System32\atifglpf.xml, 1/26/2006 09:48:04, 6005 bytes
+   Driver: C:\WINDOWS\System32\atioglxx.dll, 6.14.0010.5757 (English), 3/22/2006 11:24:30, 5025792 bytes
+   Driver: C:\WINDOWS\System32\atioglx1.dll, 6.14.0010.1062 (English), 3/22/2006 11:33:02, 6684672 bytes
+   Driver: C:\WINDOWS\System32\atiiiexx.dll, 6.14.0010.4004 (English), 3/22/2006 11:42:24, 307200 bytes
+
+     Name: RADEON X300/X550 Series
+Device ID: PCI\VEN_1002&DEV_5B60&SUBSYS_34161642&REV_00\4&A0C09A8&0&0008
+   Driver: C:\WINDOWS\System32\DRIVERS\ati2mtag.sys, 6.14.0010.6606 (Chinese), 3/22/2006 11:56:22, 1522688 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\ati2erec.dll, 1.00.0000.0005 (English), 3/22/2006 11:17:10, 40960 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\ativvpxx.vp, 3/22/2006 12:12:34, 27504 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\ativckxx.vp, 10/14/2005 23:10:12, 58560 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\ativcaxx.vp, 2/9/2006 05:44:06, 929 bytes
+   Driver: C:\WINDOWS\System32\DRIVERS\ativcaxx.cpa, 2/9/2006 05:44:06, 1114674 bytes
+   Driver: C:\WINDOWS\System32\ati2dvag.dll, 6.14.0010.6606 (English), 3/22/2006 11:56:42, 257536 bytes
+   Driver: C:\WINDOWS\System32\ati2cqag.dll, 6.14.0010.0311 (English), 3/22/2006 11:12:24, 258048 bytes
+   Driver: C:\WINDOWS\System32\Ati2mdxx.exe, 6.14.0010.2495 (English), 3/22/2006 11:50:30, 26112 bytes
+   Driver: C:\WINDOWS\System32\ati3duag.dll, 6.14.0010.0392 (English), 3/22/2006 11:40:12, 2662688 bytes
+   Driver: C:\WINDOWS\System32\ativvaxx.dll, 6.14.0001.0095 (English), 3/22/2006 11:33:40, 1130752 bytes
+   Driver: C:\WINDOWS\System32\atiicdxx.dat, 2/14/2006 04:29:26, 121995 bytes
+   Driver: C:\WINDOWS\System32\ATIDDC.DLL, 6.14.0010.0008 (English), 3/22/2006 11:48:18, 53248 bytes
+   Driver: C:\WINDOWS\System32\atitvo32.dll, 6.14.0010.4200 (English), 3/22/2006 11:17:54, 17408 bytes
+   Driver: C:\WINDOWS\System32\ativcoxx.dll, 6.13.0010.0005 (English), 11/10/2001 00:01:04, 24064 bytes
+   Driver: C:\WINDOWS\System32\ati2evxx.exe, 6.14.0010.4131 (English), 3/22/2006 11:48:56, 405504 bytes
+   Driver: C:\WINDOWS\System32\ati2evxx.dll, 6.14.0010.4131 (English), 3/22/2006 11:50:10, 61440 bytes
+   Driver: C:\WINDOWS\System32\atipdlxx.dll, 6.14.0010.2498 (English), 3/22/2006 11:50:50, 114688 bytes
+   Driver: C:\WINDOWS\System32\Oemdspif.dll, 6.14.0001.0016 (English), 3/22/2006 11:50:36, 77824 bytes
+   Driver: C:\WINDOWS\System32\ati2edxx.dll, 6.14.0010.2500 (English), 3/22/2006 11:50:22, 41984 bytes
+   Driver: C:\WINDOWS\System32\atikvmag.dll, 6.14.0010.0035 (Chinese), 3/22/2006 11:18:34, 151552 bytes
+   Driver: C:\WINDOWS\System32\ATIDEMGR.dll, 1.02.2271.38961 (Chinese), 3/22/2006 10:38:46, 286720 bytes
+   Driver: C:\WINDOWS\System32\atifglpf.xml, 1/26/2006 09:48:04, 6005 bytes
+   Driver: C:\WINDOWS\System32\atioglxx.dll, 6.14.0010.5757 (English), 3/22/2006 11:24:30, 5025792 bytes
+   Driver: C:\WINDOWS\System32\atioglx1.dll, 6.14.0010.1062 (English), 3/22/2006 11:33:02, 6684672 bytes
+   Driver: C:\WINDOWS\System32\atiiiexx.dll, 6.14.0010.4004 (English), 3/22/2006 11:42:24, 307200 bytes
+
+------------------
+DirectX Components
+------------------
+   ddraw.dll: 5.01.2600.1106 Chinese Final Retail 3/15/2003 00:00:00 252928 bytes (problem)
+ ddrawex.dll: 5.01.2600.0000 English Final Retail 3/15/2003 00:00:00 24064 bytes
+   dxapi.sys: 5.01.2600.0000 English Final Retail 3/15/2003 00:00:00 10496 bytes
+    d3d8.dll: 5.03.0001.0904 Chinese Final Retail 7/9/2004 04:27:28 1201152 bytes
+ d3d8thk.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 8192 bytes
+    d3d9.dll: 5.03.0001.0904 Chinese Final Retail 7/9/2004 04:27:28 1703936 bytes
+   d3dim.dll: 5.01.2600.0000 English Final Retail 3/15/2003 00:00:00 436224 bytes
+d3dim700.dll: 5.03.0001.0902 English Final Retail 5/30/2003 09:00:02 797184 bytes
+ d3dramp.dll: 5.01.2600.0000 English Final Retail 3/15/2003 00:00:00 590336 bytes
+   d3drm.dll: 5.01.2600.0000 English Final Retail 3/15/2003 00:00:00 350208 bytes
+  d3dxof.dll: 5.01.2600.0000 English Final Retail 3/15/2003 00:00:00 47616 bytes
+d3dpmesh.dll: 5.01.2600.0000 English Final Retail 3/15/2003 00:00:00 34816 bytes
+   dplay.dll: 5.00.2134.0001 Chinese Final Retail 3/15/2003 00:00:00 33040 bytes
+  dplayx.dll: 5.03.0001.0904 English Final Retail 7/9/2004 04:27:28 230400 bytes
+dpmodemx.dll: 5.03.0000.0900 Chinese Final Retail 12/12/2002 00:14:32 77824 bytes
+ dpwsock.dll: 5.00.2134.0001 English Final Retail 3/15/2003 00:00:00 42768 bytes
+dpwsockx.dll: 5.03.0001.0904 Chinese Final Retail 7/9/2004 04:27:28 79360 bytes
+dplaysvr.exe: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 28160 bytes
+  dpnsvr.exe: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 16896 bytes
+   dpnet.dll: 5.03.0000.0900 Chinese Final Retail 12/12/2002 00:14:32 723968 bytes
+dpnlobby.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 3072 bytes
+ dpnaddr.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 3072 bytes
+ dpvoice.dll: 5.03.0000.0900 Chinese Final Retail 12/12/2002 00:14:32 381952 bytes
+dpvsetup.exe: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 80896 bytes
+  dpvvox.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 112128 bytes
+  dpvacm.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 19968 bytes
+dpnhpast.dll: 5.03.0000.0901 English Final Retail 3/24/2003 09:00:02 32768 bytes
+dpnhupnp.dll: 5.03.0000.0901 English Final Retail 3/24/2003 09:00:02 68096 bytes
+dpserial.dll: 5.00.2134.0001 Chinese Final Retail 3/15/2003 00:00:00 53520 bytes
+  dinput.dll: 5.01.2600.1106 Chinese Final Retail 3/15/2003 00:00:00 141312 bytes
+ dinput8.dll: 5.01.2600.1106 Chinese Final Retail 3/15/2003 00:00:00 158208 bytes
+   dimap.dll: 5.01.2600.0000 English Final Retail 3/15/2003 00:00:00 44032 bytes
+diactfrm.dll: 5.01.2600.0000 Chinese Final Retail 3/15/2003 00:00:00 394240 bytes
+     joy.cpl: 5.01.2600.1106 Chinese Final Retail 3/15/2003 00:00:00 62976 bytes
+   gcdef.dll: 5.01.2600.0000 Chinese Final Retail 3/15/2003 00:00:00 76800 bytes
+     pid.dll: 5.01.2600.1106 English Final Retail 3/15/2003 00:00:00 31744 bytes
+  dsound.dll: 5.01.2600.0000 Chinese Final Retail 3/15/2003 00:00:00 338944 bytes
+dsound3d.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 1294336 bytes
+  dswave.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 18432 bytes
+   dsdmo.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 186880 bytes
+dsdmoprp.dll: 5.03.0000.0900 Chinese Final Retail 12/12/2002 00:14:32 491520 bytes
+  dmusic.dll: 5.03.0001.0904 Chinese Final Retail 7/9/2004 04:27:28 122880 bytes
+  dmband.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 27136 bytes
+dmcompos.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 58368 bytes
+   dmime.dll: 5.03.0001.0904 English Final Retail 7/9/2004 04:27:28 181248 bytes
+dmloader.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 33280 bytes
+ dmstyle.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 98816 bytes
+ dmsynth.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 100864 bytes
+dmscript.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 76800 bytes
+   dx7vb.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 602624 bytes
+   dx8vb.dll: 5.03.0001.0902 English Final Retail 5/30/2003 09:00:02 1189888 bytes
+ dxdiagn.dll: 5.03.0001.0904 Chinese Final Retail 7/9/2004 04:27:28 1769472 bytes
+   mfc40.dll: 4.01.0000.6140 English Final Retail 3/15/2003 00:00:00 924432 bytes
+   mfc42.dll: 6.00.8665.0000 English Beta Retail 3/15/2003 00:00:00 995383 bytes
+ wsock32.dll: 5.01.2600.0000 Chinese Final Retail 3/15/2003 00:00:00 27648 bytes
+amstream.dll: 6.05.0001.0900 English Final Retail 12/12/2002 00:14:32 64512 bytes
+ devenum.dll: 6.04.2600.0000 Chinese Final Retail 3/15/2003 00:00:00 51712 bytes
+  dxmasf.dll: 6.04.0009.1125 Chinese Final Retail 3/15/2003 00:00:00 498205 bytes
+mciqtz32.dll: 6.05.0001.0900 English Final Retail 12/12/2002 00:14:32 34304 bytes
+ mpg2splt.ax: 6.05.0001.0900 English Final Retail 12/12/2002 00:14:32 136192 bytes
+   msdmo.dll: 6.05.0001.0900 English Final Retail 12/12/2002 00:14:32 13312 bytes
+  encapi.dll: 5.03.0000.0900 English Final Retail 12/12/2002 00:14:32 18944 bytes
+    qasf.dll: 6.04.2600.0000 Chinese Final Retail 3/15/2003 00:00:00 152576 bytes
+    qcap.dll: 6.05.0001.0900 Chinese Final Retail 12/12/2002 00:14:32 257024 bytes
+     qdv.dll: 6.05.0001.0904 Chinese Final Retail 7/9/2004 04:27:28 316928 bytes
+    qdvd.dll: 6.04.2600.1106 Chinese Final Retail 3/15/2003 00:00:00 356864 bytes
+   qedit.dll: 6.04.2600.1106 Chinese Final Retail 3/15/2003 00:00:00 508928 bytes
+qedwipes.dll: 6.05.0001.0900 English Final Retail 12/12/2002 00:14:32 733184 bytes
+  quartz.dll: 6.04.2600.1106 Chinese Final Retail 3/15/2003 00:00:00 1124864 bytes
+ strmdll.dll: 4.01.0000.3928 Chinese Final Retail 3/15/2003 00:00:00 251904 bytes
+ iac25_32.ax: 2.00.0005.0053 English Final Retail 8/17/2004 20:00:00 199680 bytes
+  ir41_32.ax: 4.51.0016.0003 English Final Retail 8/17/2004 20:00:00 848384 bytes
+ ir50_32.dll: 5.2820.0015.0058 English Final Retail 10/23/2002 15:56:26 746496 bytes
+mswebdvd.dll: 6.05.0001.0900 Chinese Final Retail 12/12/2002 00:14:32 324096 bytes
+      ks.sys: 5.03.0000.0900 Chinese Final Retail 12/12/2002 00:14:32 130304 bytes
+  ksproxy.ax: 5.03.0000.0900 Chinese Final Retail 12/12/2002 00:14:32 117248 bytes
+  ksuser.dll: 5.01.2600.0000 Chinese Final Retail 8/31/2001 16:03:02 4096 bytes
+  stream.sys: 5.03.0001.0904 Chinese Final Retail 7/9/2004 04:27:28 48512 bytes
+mspclock.sys: 5.03.0000.0900 Chinese Final Retail 12/12/2002 00:14:32 5248 bytes
+   mspqm.sys: 5.01.2600.0000 Chinese Final Retail 8/23/2001 05:00:00 4608 bytes
+ mskssrv.sys: 5.03.0000.0900 Chinese Final Retail 12/12/2002 00:14:32 7424 bytes
+  swenum.sys: 5.03.0000.0900 Chinese Final Retail 12/12/2002 00:14:32 4096 bytes
+   mstee.sys: 5.03.0000.0900 Chinese Final Retail 12/12/2002 00:14:32 5504 bytes
+ bdaplgin.ax: 5.03.0000.0900 Chinese Final Retail 7/9/2004 04:26:38 16896 bytes
+  bdasup.sys: 5.03.0000.0900 English Final Retail 7/9/2004 04:26:38 11392 bytes
+  msdvbnp.ax: 6.05.0001.0900 English Final Retail 7/9/2004 04:26:38 52224 bytes
+psisdecd.dll: 6.05.0001.0900 English Final Retail 7/9/2004 04:26:40 354816 bytes
+ psisrndr.ax: 6.05.0001.0900 English Final Retail 7/9/2004 04:26:40 30208 bytes
+   ipsink.ax: 5.03.0000.0900 Chinese Final Retail 7/9/2004 04:26:38 14848 bytes
+mpeg2data.ax: 6.05.0001.0900 English Final Retail 7/9/2004 04:26:38 57856 bytes
+  ndisip.sys: 5.03.0000.0900 English Final Retail 7/9/2004 04:26:38 10112 bytes
+     mpe.sys: 5.03.0000.0900 English Final Retail 7/9/2004 04:26:38 15104 bytes
+streamip.sys: 5.03.0000.0900 English Final Retail 7/9/2004 04:26:40 14976 bytes
+msvidctl.dll: 6.05.0001.0900 English Final Retail 7/9/2004 04:26:38 1230336 bytes
+    slip.sys: 5.03.0000.0900 English Final Retail 7/9/2004 04:26:40 10880 bytes
+nabtsfec.sys: 5.03.0000.0900 English Final Retail 7/9/2004 04:26:38 83968 bytes
+ccdecode.sys: 5.03.0000.0900 English Final Retail 7/9/2004 04:26:38 16384 bytes
+  vbisurf.ax: 5.03.0000.0900 English Final Retail 7/9/2004 04:26:40 27648 bytes
+   msyuv.dll: 5.03.0000.0900 English Final Retail 7/9/2004 04:26:38 16896 bytes
+ kstvtune.ax: 5.03.0001.0904 Chinese Final Retail 7/19/2004 16:19:30 285696 bytes
+   ksxbar.ax: 5.03.0001.0902 English Final Retail 7/9/2004 04:26:38 39424 bytes
+ kswdmcap.ax: 5.03.0000.0900 Chinese Final Retail 7/9/2004 04:26:40 226304 bytes
+wstcodec.sys: 5.03.0000.0900 English Final Retail 7/9/2004 04:26:40 18688 bytes
+wstdecod.dll: 5.03.0000.0900 English Final Retail 7/9/2004 04:26:40 47104 bytes
+    msdv.sys: 5.01.2600.0000 English Final Retail 7/9/2004 04:26:38 52096 bytes
+
+------------------
+DirectShow Filters
+------------------
+
+DirectShow Filters:
+WMAudio Decoder DMO,0x00600800,1,1,,
+WMVideo 8 Decoder DMO,0x00800001,1,1,,
+MSScreen decoder DMO,0x00600800,1,1,,
+WMVideo Decoder DMO,0x00800001,1,1,,
+H264 Decoder DMO,0x00600000,1,1,,
+Mpeg4 Decoder DMO,0x00800001,1,1,,
+ffdshow MPEG-4 Video Decoder,0xff800001,2,1,ffdshow.ax,1.00.0002.2028
+Full Screen Renderer,0x00200000,1,0,quartz.dll,6.04.2600.1106
+CoreAVC Video Decoder,0x00600200,1,1,CoreAVC.ax,1.01.0000.0005
+ffdshow raw video filter,0x00200000,2,1,ffdshow.ax,1.00.0002.2028
+H26L Decompressor,0x00800000,1,1,Vid1Dec.dll,
+ffdshow Audio Decoder,0x3fffffff,1,1,ffdshow.ax,1.00.0002.2028
+DV Muxer,0x00400000,0,0,qdv.dll,6.05.0001.0904
+Color Space Converter,0x00400001,1,1,quartz.dll,6.04.2600.1106
+WM ASF Reader,0x00400000,0,0,qasf.dll,6.04.2600.0000
+AVI Splitter,0x00600000,1,1,quartz.dll,6.04.2600.1106
+VGA 16 Color Ditherer,0x00400000,1,1,quartz.dll,6.04.2600.1106
+Indeo? Video 5.2 Compression Filter,0x00200000,1,1,ir50_32.dll,5.2820.0015.0058
+XEBDAD Audio Decoder,0x00600000,1,1,TRLDRP6.ax,4.07.0002.0009
+Windows Media Audio Decoder,0x00800001,1,1,msadds32.ax,8.00.0000.4487
+RealVideo Decoder,0x00400000,1,1,RMSplt.ax,1.00.0001.0001
+AC3 Parser Filter,0x00600000,1,1,mpg2splt.ax,6.05.0001.0900
+StreamBufferSink,0x00200000,0,0,sbe.dll,6.04.2600.1106
+MJPEG Decompressor,0x00600000,1,1,quartz.dll,6.04.2600.1106
+Indeo? Video 5.2 Decompression Filter,0x00640000,1,1,ir50_32.dll,5.2820.0015.0058
+Microsoft Screen Video Decompressor,0x00800000,1,1,msscds32.ax,8.00.0000.4487
+MPEG-I Stream Splitter,0x00600000,1,2,quartz.dll,6.04.2600.1106
+SAMI (CC) Parser,0x00400000,1,1,quartz.dll,6.04.2600.1106
+MPEG Layer-3 Decoder,0x00810000,1,1,l3codecx.ax,1.05.0000.0050
+MPEG-2 Splitter,0x005fffff,1,0,mpg2splt.ax,6.05.0001.0900
+AAC Parser,0x00400000,1,1,aac_ps.ax,1.01.0000.0000
+ACELP.net Sipro Lab Audio Decoder,0x00800001,1,1,acelpdec.ax,1.04.0000.0000
+Pmp Splitter,0x00600001,1,0,PmpSplt.ax,1.00.0000.0008
+Internal Script Command Renderer,0x00800001,1,0,quartz.dll,6.04.2600.1106
+XEB Navigation Filter,0x00800000,0,3,xebnav.ax,0.07.0000.1400
+MPEG Audio Decoder,0x03680001,1,1,quartz.dll,6.04.2600.1106
+File Source (Netshow URL),0x00400000,0,1,dxmasf.dll,6.04.0009.1125
+DV Splitter,0x00600000,1,2,qdv.dll,6.05.0001.0904
+Windows Media Video Decoder,0x00800000,1,1,wmvds32.ax,8.00.0000.4487
+CoreFLAC Audio Source,0x00600000,0,0,CFLAC.ax,0.04.0000.0046
+Windows Media Video Decoder,0x00800000,1,1,wmv8ds32.ax,8.00.0000.4000
+Haali Media Splitter,0x00800001,0,1,splitter.ax,1.06.0338.0023
+Haali Media Splitter (AR),0x00400000,1,1,splitter.ax,1.06.0338.0023
+CyberLink Video/SP Decoder (OEM),0x00800002,2,3,PD_oem.ax,6.00.0000.1625
+CoreFLAC Audio Decoder,0x00600000,1,1,CFLAC.ax,0.04.0000.0046
+VGM - Video Decoder,0x00600000,1,1,vgmv2k2.ax,1.00.0011.0014
+Windows Media Multiplexer,0x00600000,1,1,dxmasf.dll,6.04.0009.1125
+ASX file Parser,0x00600000,1,1,dxmasf.dll,6.04.0009.1125
+ASX v.2 file Parser,0x00600000,1,0,dxmasf.dll,6.04.0009.1125
+NSC file Parser,0x00600000,1,1,dxmasf.dll,6.04.0009.1125
+XviD MPEG-4 Video Decoder,0x00800000,1,1,xvid.ax,
+File Source (Monkey Audio),0x00400000,0,1,MASource.ax,
+ACM Wrapper,0x00600000,1,1,quartz.dll,6.04.2600.1106
+Windows Media source filter,0x00600000,0,2,dxmasf.dll,6.04.0009.1125
+Video Renderer,0x00800001,1,0,quartz.dll,6.04.2600.1106
+MPEG-2 Video Stream Analyzer,0x00200000,0,0,sbe.dll,6.04.2600.1106
+Line 21 Decoder,0x00600000,1,1,qdvd.dll,6.04.2600.1106
+Video Port Manager,0x00600000,2,1,quartz.dll,6.04.2600.1106
+WST Decoder,0x00600000,1,1,wstdecod.dll,5.03.0000.0900
+Video Renderer,0x00400000,1,0,quartz.dll,6.04.2600.1106
+NVIDIA Video Decoder,0x00800001,2,3,nvviddec.ax,4020.223.0000.0000
+RealMedia Source,0x00600000,0,0,RMSplt.ax,1.00.0001.0001
+WM ASF Writer,0x00400000,0,0,qasf.dll,6.04.2600.0000
+H26L DecompressorRGB,0x007fffff,1,1,Vid1Dec.dll,
+VBI Surface Allocator,0x00600000,1,1,vbisurf.ax,5.03.0000.0900
+Microsoft MPEG-4 Video Decompressor,0x00800000,1,1,mpg4ds32.ax,8.00.0000.4487
+File writer,0x00200000,1,0,qcap.dll,6.05.0001.0900
+RadLight MPC DirectShow Filter,0x00600000,0,1,RLMPCDec.ax,1.00.0000.0003
+Haali Simple Media Splitter,0x00200000,0,1,splitter.ax,1.06.0338.0023
+DirectVobSub,0x00200000,2,1,VSFilter.dll,1.00.0001.0003
+RealAudio Decoder,0x00400000,1,1,RMSplt.ax,1.00.0001.0001
+DirectVobSub (auto-loading version),0x00800002,2,1,VSFilter.dll,1.00.0001.0003
+DVD Navigator,0x00200000,0,2,qdvd.dll,6.04.2600.1106
+Overlay Mixer2,0x00400000,1,1,qdvd.dll,6.04.2600.1106
+Haali Matroska Muxer,0x00200000,1,0,splitter.ax,1.06.0338.0023
+AVI Draw,0x00600064,9,1,quartz.dll,6.04.2600.1106
+.RAM file Parser,0x00600000,1,0,dxmasf.dll,6.04.0009.1125
+XEBDSP,0x00600000,2,1,xebdec.ax,0.05.0000.0016
+G.711 Codec,0x00200000,1,1,g711codc.ax,5.01.2600.0000
+MPEG-2 Demultiplexer,0x00600000,1,1,mpg2splt.ax,6.05.0001.0900
+VGM - Splitter,0x00600000,1,1,VgmSplt.ax,1.00.0011.0019
+DV Video Decoder,0x00800000,1,1,qdv.dll,6.05.0001.0904
+Indeo? audio software,0x00500000,1,1,iac25_32.ax,2.00.0005.0053
+Windows Media Update Filter,0x00400000,1,0,dxmasf.dll,6.04.0009.1125
+ffdshow Audio Processor,0x00200000,1,1,ffdshow.ax,1.00.0002.2028
+ASF DIB Handler,0x00600000,1,1,dxmasf.dll,6.04.0009.1125
+ASF ACM Handler,0x00600000,1,1,dxmasf.dll,6.04.0009.1125
+ASF ICM Handler,0x00600000,1,1,dxmasf.dll,6.04.0009.1125
+ASF URL Handler,0x00600000,1,1,dxmasf.dll,6.04.0009.1125
+ASF JPEG Handler,0x00600000,1,1,dxmasf.dll,6.04.0009.1125
+ASF DJPEG Handler,0x00600000,1,1,dxmasf.dll,6.04.0009.1125
+ASF embedded stuff Handler,0x00600000,1,1,dxmasf.dll,6.04.0009.1125
+WIA Stream Snapshot Filter,0x00200000,1,1,wiasf.ax,1.00.0000.0000
+TTL2 Decompressor,0x00800002,1,1,TTL2Dec.dll,
+SampleGrabber,0x00200000,1,1,qedit.dll,6.04.2600.1106
+Null Renderer,0x00200000,1,0,qedit.dll,6.04.2600.1106
+SHN to Wave Filter,0x00400000,1,1,SHNTrans.ax,
+StreamBufferSource,0x00200000,0,0,sbe.dll,6.04.2600.1106
+WMP CD Filter,0x00600000,0,1,wmpcd.dll,8.00.0000.4487
+Smart Tee,0x00200000,1,2,qcap.dll,6.05.0001.0900
+Overlay Mixer,0x00200000,0,0,qdvd.dll,6.04.2600.1106
+AVI Decompressor,0x00600000,1,1,quartz.dll,6.04.2600.1106
+AVI/WAV File Source,0x00400000,0,2,quartz.dll,6.04.2600.1106
+VGM - BGR Converter,0x00400000,1,1,vgmbgr.ax,1.00.0003.0004
+QuickTime Movie Parser,0x00600000,1,1,quartz.dll,6.04.2600.1106
+Wave Parser,0x00400000,1,1,quartz.dll,6.04.2600.1106
+MIDI Parser,0x00400000,1,1,quartz.dll,6.04.2600.1106
+Multi-file Parser,0x00400000,1,1,quartz.dll,6.04.2600.1106
+Lyric Parser,0x00400000,1,1,quartz.dll,6.04.2600.1106
+File stream renderer,0x00400000,1,1,quartz.dll,6.04.2600.1106
+XML Playlist,0x00400000,1,0,dxmasf.dll,6.04.0009.1125
+TTL2 DecompressorRGB,0x00800001,1,1,TTL2Dec.dll,
+Pmp Source,0x00600001,0,0,PmpSplt.ax,1.00.0000.0008
+RealMedia Splitter,0x00600000,1,1,RMSplt.ax,1.00.0001.0001
+AVI Mux,0x00200000,1,0,qcap.dll,6.05.0001.0900
+Line 21 Decoder 2,0x00600002,1,1,quartz.dll,6.04.2600.1106
+File Source (Async.),0x00400000,0,1,quartz.dll,6.04.2600.1106
+File Source (URL),0x00400000,0,1,quartz.dll,6.04.2600.1106
+Haali Video Sink,0x00200000,1,0,splitter.ax,1.06.0338.0023
+True Audio Splitter,0x00600000,1,1,TTASplt.ax,1.00.0000.0203
+Windows Media Pad VU Data Grabber,0x00600000,1,0,wmmfilt.dll,1.01.2427.0001
+Infinite Pin Tee Filter,0x00200000,1,1,qcap.dll,6.05.0001.0900
+QT Decompressor,0x00600000,1,1,quartz.dll,6.04.2600.1106
+ShotBoundaryDet,0x00200000,1,1,wmmfilt.dll,1.01.2427.0001
+MPEG Video Decoder,0x40000001,1,1,quartz.dll,6.04.2600.1106
+VGM - Audio Decoder,0x00600000,1,1,VgmAudio.ax,1.00.0006.0009
+Indeo? video 4.4 Decompression Filter,0x00640000,1,1,ir41_32.ax,4.51.0016.0003
+Indeo? video 4.4 Compression Filter,0x00200000,1,1,ir41_32.ax,4.51.0016.0003
+
+WDM Microsoft Kernel Acoustic Echo Canceller,0x00200000,2,2,,5.03.0000.0900
+Microsoft Kernel GS Wavetable Synthesizer,0x00200000,1,1,,5.03.0000.0900
+Microsoft Kernel DLS Synthesizer,0x00200000,1,1,,5.03.0000.0900
+Microsoft Kernel DRM Audio Descrambler,0x00200000,1,1,,5.03.0000.0900
+
+Video Compressors:
+WMVideo Encoder DMO,0x00600800,1,1,,
+MSScreen encoder DMO,0x00600800,1,1,,
+DV Video Encoder,0x00200000,0,0,qdv.dll,6.05.0001.0904
+ffdshow video encoder,0x00100000,1,1,ffdshow.ax,1.00.0002.2028
+Indeo? Video 5.2 Compression Filter,0x00100000,1,1,ir50_32.dll,5.2820.0015.0058
+MJPEG Compressor,0x00200000,0,0,quartz.dll,6.04.2600.1106
+Cinepak Codec by Radius,0x00200000,1,1,qcap.dll,6.05.0001.0900
+ffdshow Video Codec,0x00200000,1,1,qcap.dll,6.05.0001.0900
+VP62® Heightened Sharpness Profile,0x00200000,1,1,qcap.dll,6.05.0001.0900
+Intel 4:2:0 Video V2.50,0x00200000,1,1,qcap.dll,6.05.0001.0900
+Intel Indeo(R) Video R3.2,0x00200000,1,1,qcap.dll,6.05.0001.0900
+Intel Indeo? Video 4.5,0x00200000,1,1,qcap.dll,6.05.0001.0900
+Ligos Indeo? XP Video 5.2,0x00200000,1,1,qcap.dll,6.05.0001.0900
+Intel IYUV codec,0x00200000,1,1,qcap.dll,6.05.0001.0900
+Microsoft H.261 Video Codec,0x00200000,1,1,qcap.dll,6.05.0001.0900
+Microsoft H.263 Video Codec,0x00200000,1,1,qcap.dll,6.05.0001.0900
+Microsoft RLE,0x00200000,1,1,qcap.dll,6.05.0001.0900
+Microsoft Video 1,0x00200000,1,1,qcap.dll,6.05.0001.0900
+VP60® Simple Profile ,0x00200000,1,1,qcap.dll,6.05.0001.0900
+VP61® Advanced Profile,0x00200000,1,1,qcap.dll,6.05.0001.0900
+VP62® Heightened Sharpness Profile,0x00200000,1,1,qcap.dll,6.05.0001.0900
+VP62® Heightened Sharpness Profile,0x00200000,1,1,qcap.dll,6.05.0001.0900
+VP70® General Profile,0x00200000,1,1,qcap.dll,6.05.0001.0900
+XviD MPEG-4 Codec,0x00200000,1,1,qcap.dll,6.05.0001.0900
+
+Audio Compressors:
+WMAudio Encoder DMO,0x00600800,1,1,,
+IAC2,0x00200000,1,1,quartz.dll,6.04.2600.1106
+Voxware v1.1.8 Bitstream-Mode Codecs,0x00200000,1,1,quartz.dll,6.04.2600.1106
+Voxware MetaVoice,0x00200000,1,1,quartz.dll,6.04.2600.1106
+Voxware MetaSound,0x00200000,1,1,quartz.dll,6.04.2600.1106
+IMA ADPCM,0x00200000,1,1,quartz.dll,6.04.2600.1106
+PCM,0x00200000,1,1,quartz.dll,6.04.2600.1106
+Ogg Vorbis (mode1),0x00200000,1,1,quartz.dll,6.04.2600.1106
+Ogg Vorbis (mode2),0x00200000,1,1,quartz.dll,6.04.2600.1106
+Ogg Vorbis (mode3),0x00200000,1,1,quartz.dll,6.04.2600.1106
+Ogg Vorbis (mode1+),0x00200000,1,1,quartz.dll,6.04.2600.1106
+Ogg Vorbis (mode2+),0x00200000,1,1,quartz.dll,6.04.2600.1106
+Ogg Vorbis (mode3+),0x00200000,1,1,quartz.dll,6.04.2600.1106
+Microsoft ADPCM,0x00200000,1,1,quartz.dll,6.04.2600.1106
+ACELP.net,0x00200000,1,1,quartz.dll,6.04.2600.1106
+DSP Group TrueSpeech(TM),0x00200000,1,1,quartz.dll,6.04.2600.1106
+Windows Media Audio V1,0x00200000,1,1,quartz.dll,6.04.2600.1106
+Windows Media Audio V2,0x00200000,1,1,quartz.dll,6.04.2600.1106
+GSM 6.10,0x00200000,1,1,quartz.dll,6.04.2600.1106
+Microsoft G.723.1,0x00200000,1,1,quartz.dll,6.04.2600.1106
+CCITT A-Law,0x00200000,1,1,quartz.dll,6.04.2600.1106
+CCITT u-Law,0x00200000,1,1,quartz.dll,6.04.2600.1106
+MPEG Layer-3,0x00200000,1,1,quartz.dll,6.04.2600.1106
+Voxware v1.1.6/1.1.8 File-Mode Codecs,0x00200000,1,1,quartz.dll,6.04.2600.1106
+
+Audio Capture Sources:
+Realtek AC97 Audio,0x00200000,0,0,qcap.dll,6.05.0001.0900
+
+Midi Renderers:
+Default MidiOut Device,0x00800000,1,0,quartz.dll,6.04.2600.1106
+Microsoft GS 0x00200000,1,0,quartz.dll,6.04.2600.1106
+
+WDM Realtek AC97 Audio,0x00200000,3,3,,5.03.0000.0900
+
+WDM Realtek AC97 Audio,0x00200000,3,3,,5.03.0000.0900
+
+WDM Microsoft Kernel Wave Audio Mixer,0x00000000,0,0,,
+
+BDA CP/CA Filters:
+Decrypt/Tag,0x00200000,0,0,encdec.dll,6.04.2600.1106
+Encrypt/Tag,0x00200000,0,0,encdec.dll,6.04.2600.1106
+XDS Codec,0x00200000,0,0,encdec.dll,6.04.2600.1106
+
+Audio Renderers:
+Realtek AC97 Audio,0x00200000,1,0,quartz.dll,6.04.2600.1106
+Default DirectSound Device,0x00800000,1,0,quartz.dll,6.04.2600.1106
+Default WaveOut Device,0x00200000,1,0,quartz.dll,6.04.2600.1106
+DirectSound: Realtek AC97 Audio,0x00200000,1,0,quartz.dll,6.04.2600.1106
+
+WDM Realtek AC97 Audio,0x00200000,17,2,,5.03.0000.0900
+

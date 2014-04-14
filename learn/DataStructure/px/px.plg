@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: px - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP5B0D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/px.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\programdesign\DataStructure\px\px.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP5B0D.tmp" 
+<h3>Output Window</h3>
+Compiling...
+px.cpp
+D:\programdesign\DataStructure\px\px.cpp(80) : error C2664: 'averal' : cannot convert parameter 1 from 'struct student' to 'struct student []'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\programdesign\DataStructure\px\px.cpp(82) : error C2664: 'max1' : cannot convert parameter 1 from 'struct student' to 'struct student []'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\programdesign\DataStructure\px\px.cpp(84) : error C2664: 'max2' : cannot convert parameter 1 from 'struct student' to 'struct student []'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\programdesign\DataStructure\px\px.cpp(86) : error C2664: 'max3' : cannot convert parameter 1 from 'struct student' to 'struct student []'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+px.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

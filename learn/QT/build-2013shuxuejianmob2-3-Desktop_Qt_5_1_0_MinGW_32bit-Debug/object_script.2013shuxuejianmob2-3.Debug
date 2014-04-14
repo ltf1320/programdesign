@@ -1,0 +1,15 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\topsort.o
+./debug\imagewidget.o
+./debug\arrange.o
+./debug\b2.o
+./debug\findwidget.o
+./debug\picnode.o
+./debug\unionfind.o
+./debug\samelinewidget.o
+./debug\moc_mainwindow.o
+./debug\moc_findwidget.o
+./debug\moc_samelinewidget.o
+);

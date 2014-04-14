@@ -1,0 +1,10 @@
+5
+King
+.son1
+..s
+...ss
+.sss
+3
+b s
+b ss
+c sss ss

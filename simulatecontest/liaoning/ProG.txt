@@ -1,0 +1,28 @@
+Problem G: I Love Palindrome
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 3  Solved: 3
+[Submit][Status][Web Board]
+Description
+XXX believes that palindrome is one of the most beautiful present the nature gives us. One day, XXX is thinking of an interesting question about palindrome again.
+ 
+He writes down some strings which consist of letters randomly onto a piece of paper. He thinks how he can convert them into palindromes. He finds he can change the strings by three methods.    1) Delete any letter from the original string. 2) Insert any letter into the string.  3) Replace any letter with any other letter. 
+ 
+What¡¯s more, XXX is a lazy man so that he wants to change these strings into palindromes with minimum number of methods.
+ 
+Take ¡°aabcb¡± for example, you can convert it into palindrome with replacing the first two ¡°a¡± with letters ¡°b¡± and ¡°c¡±. You convert it into palindrome with at least two operations.
+Input
+The input file contains several test cases. The first line contains an integer T which is the num of the test cases.
+Then T test cases will follow, each case occupy only one line. Each test case only contains lower case letters. The length of each string won¡¯t exceed 1000 characters.
+Output
+For each set of output print the case number first like ¡°Case #x: ¡±. Then print the minimum number of operations needed to turn the given string into a palindrome.
+Sample Input
+3
+oraba
+ababa
+abbaab
+
+Sample Output
+Case #1: 2
+Case #2: 0
+Case #3: 2
+

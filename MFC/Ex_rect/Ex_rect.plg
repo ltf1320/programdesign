@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ex_rect - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Ex_rect.res" /d "_DEBUG" /d "_AFXDLL" "D:\programdesign\MFC\Ex_rect\Ex_rect.rc"" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP7B92.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Ex_rect.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\programdesign\MFC\Ex_rect\Ex_rect.cpp"
+"D:\programdesign\MFC\Ex_rect\MainFrm.cpp"
+"D:\programdesign\MFC\Ex_rect\ChildFrm.cpp"
+"D:\programdesign\MFC\Ex_rect\Ex_rectDoc.cpp"
+"D:\programdesign\MFC\Ex_rect\Ex_rectView.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP7B92.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP7B93.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Ex_rect.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\programdesign\MFC\Ex_rect\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP7B93.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP7BA3.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ex_rect.pdb" /debug /machine:I386 /out:"Debug/Ex_rect.exe" /pdbtype:sept 
+.\Debug\Ex_rect.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\ChildFrm.obj
+.\Debug\Ex_rectDoc.obj
+.\Debug\Ex_rectView.obj
+.\Debug\Ex_rect.res
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSP7BA3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Ex_rect.cpp
+MainFrm.cpp
+ChildFrm.cpp
+Ex_rectDoc.cpp
+Ex_rectView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Ex_rect.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

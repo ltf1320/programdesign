@@ -1,0 +1,28 @@
+function res=topSort(n,rz,vis,map)
+
+head=tail=0;
+sz=size(map);
+tail=0;
+for i=1:sz(1)
+    indu=0;
+    if vis[i]~=1
+        for j=1:sz(2)
+           if map[j][i]==1
+              indu++;
+           end
+        end
+       if indu==0
+           que[tail]=i;
+           tail=tail+1;
+       end
+    end
+end
+
+for i=1:tail-1
+    rz[n]=que[i];
+    vis[que[i]]=1;
+    now=topsort(n+1,rz,vis,map);
+    for j=1:size(now,1)
+        res(
+    vis[que[i]]=0;
+end

@@ -1,0 +1,9 @@
+claer all
+clc
+subD=subass;%组件数据
+planeD=plane;%面数据
+ss=size(subD);
+ps=size(planeD);
+for i=1:ss(1)
+    for j=1:ps(1)
+        res(i,j)=subD(j,(doData(planeD(i,2),planeD(j,1),subD(j,5));

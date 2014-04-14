@@ -1,0 +1,6 @@
+bool 10 3
+int 40 9
+double 100 1
+float 90 10
+long 50 2
+short 20 123

@@ -1,0 +1,7 @@
+; 20100619_1_1.def : Declares the module parameters for the DLL.
+
+LIBRARY      "20100619_1_1"
+DESCRIPTION  '20100619_1_1 Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

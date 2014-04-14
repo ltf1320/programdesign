@@ -1,0 +1,7 @@
+function [ cs ] = cross( incs )
+%the mating
+
+
+
+end
+

@@ -1,0 +1,5 @@
+clc
+clear all
+x=imread('a.jpg');
+imfinfo('a.jpg')
+image(x)

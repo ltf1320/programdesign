@@ -1,0 +1,1 @@
+shell app.path & "\ÎÄ¼şÃû"

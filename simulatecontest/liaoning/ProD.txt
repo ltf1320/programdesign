@@ -1,0 +1,20 @@
+Problem D: Da Xia learns to fly
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 17  Solved: 4
+[Submit][Status][Web Board]
+Description
+Da Xia recently learns to fly, but a lot of surprising things has happened .  Every time Da Xia can fly 1 meter ,3 meters ,or 2*k meters (k>=1).But if he choses to fly 2*k meters this time , he can¡¯t fly 2*k meters next time . For example the path of 1,3,2,4 isn¡¯t OK , but  the path of 1,2,3,4 is OK . Now Da Xia wants to fly to home ,tell me how many ways Da Xia can chose to get home. The length between Da Xia¡¯s home and here is N meters;
+
+Input
+There are many case.
+Every case has a inter N(2<=N<=100000) .
+Output
+Every case has a line . That¡¯s the answer of the case. If the answer is  bigger than 1000000007,please chose answer % 1000000007.
+Sample Input
+2
+4
+
+Sample Output
+2
+7
+

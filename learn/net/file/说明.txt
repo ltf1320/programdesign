@@ -1,0 +1,16 @@
+精美的WEB在线文件管理源码（狐狸修改版）
+
+修改部分为:
+1、网站根目录管理改为UserFile文件夹内容的管理
+2、新建文件夹必须为安全文件夹名 FileManager.IsUnsafeName
+3、新建文件必须为安全文件名 FileManager.IsSafeName
+4、删除目录里面有文件会报错
+5、复制文件时如果文件已经存在则报错的问题
+6、复制文件夹时如果文件已经存在则报错的问题
+7、上传文件必须为安全文件 FileManager.IsSafeName
+8、添加了文本文件内容修改功能
+
+这样更实用
+
+狐狸修改 foxtk.cnblogs.com
+源码下载及讨论地址：http://www.51aspx.com/CV/WebFileManagerFox

@@ -1,0 +1,62 @@
+4
+1 a 2 b
+1 b 2 c
+1 c 200000000 d
+1 d 200000000 a
+3 c 1 a
+1
+2 Orange 3 Apple
+2 Orange 2 Apple
+2
+3 a 2 A
+2 A 3 a
+5 A 5 a
+2
+3 B 2 A
+2 A 3 B
+2 A 3 B
+3
+2 b 2 A
+2 A 2 C
+3 C 2 b
+1 A 1 b
+2
+2 Orange 3 Apple
+1 Apple 1 Peach
+2 Orange 3 Peach
+1
+2 Orange 3 Apple
+2 Orange 2 Apple
+2
+3 a 2 A
+2 A 3 a
+5 A 5 a
+2
+3 B 2 A
+2 A 3 B
+2 A 3 B
+3
+2 b 2 A
+2 A 2 C
+3 C 2 b
+1 A 1 b
+2
+2 Orange 3 Apple
+1 Apple 1 Peach
+2 Orange 3 Peach
+1
+2 Orange 3 Apple
+2 Orange 2 Apple
+2
+3 a 2 A
+2 A 3 a
+5 A 5 a
+2
+3 B 2 A
+2 A 3 B
+2 A 3 B
+3
+2 b 2 A
+2 A 2 C
+3 C 2 b
+1 A 1 b

@@ -1,0 +1,27 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Title=打地鼠
+Compiled file=打地鼠.chm
+Contents file=Table of Contents.hhc
+Default topic=Mole_Attack.html
+Display compile progress=No
+Language=0x409 English (United States)
+
+
+[FILES]
+chm_start.html
+start.html
+plugins/page_notes/page_notes.js
+plugins/page_notes/styles/page_notes.css
+plugins/sitemap/sitemap.js
+plugins/sitemap/styles/sitemap.css
+plugins/sitemap/styles/images/images.html
+resources/expand.html
+resources/other.html
+resources/reload.html
+resources/images/images.html
+resources/css/images/images.html
+
+Mole_Attack.html
+chm_notes.html
+[INFOTYPES]

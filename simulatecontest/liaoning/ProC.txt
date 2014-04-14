@@ -1,0 +1,35 @@
+Problem C: Cinderella¡¯s Problem
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 2  Solved: 2
+[Submit][Status][Web Board]
+Description
+Cinderella is fascinated by all kinds of grids. Recently she encountered a very special grid - a gird of  squares, each square is occupied by a character either ¡®0¡¯ or ¡®1¡¯.Afterhavingresearched it for a long time, shethought of a problem that how many steps need to move for every square to reach the nearest ¡®1¡¯. If (r, c) represents the c-th column square of r-row, the distance between (r1, c1) and (r2, c2) is defined as
+
+We assume that in every square, we can only move to its four adjacent positions (up, down, left and right) and cannot go out of the grid. And the number of character ¡®1¡¯is at least 1.
+BecauseN may be too large and you are an excellent programmer, so Cinderella asks for your help to compute the result.
+Input
+The first line of the input file contains a single integer T - the number of blocks of data and T <= 20.
+
+Eachblockstarts with a linecontains a number N.NumberN gives the size of grid (1<=N<=200). The following N lines each containN charactersdescribing the situation of the gird and all characters in each line are separated by a space.
+
+
+Output
+The output file contains Tblocks. The i-th block corresponds the i-th input data and contains a N*N grid. Each square contains an integer indicating the minimal steps. All number in each line separated by a space. 
+
+Sample Input
+2
+2
+0 1
+1 0
+3
+000
+111
+000
+
+Sample Output
+10
+01
+111
+000
+111
+

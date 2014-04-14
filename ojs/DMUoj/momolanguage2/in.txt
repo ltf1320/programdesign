@@ -1,0 +1,199 @@
+BEGIN
+	LOOP X
+		X = X + 1;
+	END
+END
+
+
+
+BEGIN
+    X=100;
+    LOOP 10
+        X=X/10;
+        Y=100/X;
+    END
+END
+
+BEGIN
+    X=100;
+    LOOP 2
+        X=X/10;
+        Y=100/X;
+    END
+END
+
+BEGIN
+    X=100;
+    LOOP 100
+        X=X-1;
+        Y=100/X;
+    END
+END
+
+BEGIN
+    X=100;
+    LOOP 99
+        X=X-1;
+        Y=1000000000000000/X;
+    END
+END
+
+BEGIN
+    X=1;Y=2;
+    LOOP 100
+        X=X+1;
+        LOOP 100
+            Y=Y+1;
+        END
+    END
+END
+
+
+BEGIN
+    X=-1000000000000000;
+    Y=1000000000000000;
+END
+
+BEGIN
+    X=1;
+    Y=2;
+    LOOP 5
+        X=X*Y;
+        Y=Y*Y;
+    END
+END
+
+BEGIN
+	X = 1;
+	LOOP X
+		X = X / Y;
+	END
+END
+
+BEGIN
+    X=-1;Y=-1;
+    LOOP 2
+        X=X+Y;
+        LOOP 3
+            Y=Y+X;
+            LOOP 4
+                Y=Y+X;
+                LOOP 5
+                    Y=Y+X;
+                END
+            END
+        END
+    END
+END
+
+BEGIN
+    X=1;Y=1;
+    LOOP 2
+        X=X+Y;
+        LOOP 3
+            Y=Y+X;
+            LOOP 4
+                Y=Y+X;
+                LOOP 5
+                    Y=Y+X;
+                END
+            END
+        END
+    END
+END
+
+BEGIN
+    X=1;Y=1;
+    LOOP 2
+        X=X+Y;
+        LOOP 3
+            Y=Y+X;
+            LOOP 4
+                Y=Y+X;
+                LOOP 5
+                    Y=0;
+                END
+            END
+        END
+    END
+END
+
+BEGIN
+    X=123;Y=321;
+    LOOP 100
+        X=X+Y;
+        Y=X-Y;
+        X=X-Y;
+    END
+END
+
+
+BEGIN
+    X=123;Y=321;
+    LOOP 9999
+        X=X+Y;
+        Y=X-Y;
+        X=X-Y;
+    END
+END
+
+BEGIN
+    X=123;Y=321;
+    LOOP 99
+        LOOP 123
+            X=X+Y;
+            Y=X-Y;
+            X=X-Y;
+        END
+    END
+END
+
+BEGIN
+    X=123;Y=321;
+    LOOP 99
+        X=X+Y;
+        Y=X-Y;
+        X=X-Y;
+        LOOP 123
+            X=X+Y;
+            Y=X-Y;
+            X=X-Y;
+            LOOP 2
+                X=X+Y;
+                Y=X-Y;
+                X=X-Y;
+            END
+        END
+    END
+END
+
+BEGIN
+    X=123;Y=+321;
+    LOOP 99
+        X=X+Y;
+        Y=X-Y;
+        X=X-Y;
+        LOOP 123
+            LOOP 2
+                X=X+Y;
+                Y=X-Y;
+                X=X-Y;
+            END
+        END
+    END
+END
+
+
+BEGIN
+    X=+123;Y=-321;
+    LOOP 99
+        X=X+Y;
+        Y=X-Y;
+        X=X-Y;
+        LOOP 123
+            LOOP 2
+                X=X+Y; Y=X-Y;X=X-Y;END
+        END
+    END
+END
+#

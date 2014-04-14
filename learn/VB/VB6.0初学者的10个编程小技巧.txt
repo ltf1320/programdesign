@@ -1,0 +1,91 @@
+VB6.0初学者的10个编程小技巧
+
+　　1、如果一行程序太长，能不能换行？ 
+
+　　VB的程序代码是允许换行书写的，只要在每次换行的最后一个字符加上换行字符“_”就可以了。例如： 
+
+　　Sub PicMove() 
+　　Frm.Picture2.Left = Frm.Picture1.Left + _ ’加上换行符 
+　　Frm.Picture1.Width 
+　　End Sub
+
+　　2、 如何在设计的时候清空存在的图片？ 
+
+　　用鼠标点中该图片，在属性窗口中选中Picture属性，按Del键便可清空图片。
+ 
+
+　　3、 Visual Basic 如何注释一段较长程序代码？ 
+
+　　VB注释程序代码的符号是“注释：”，只要在某行程序前面加上“注释：”，就可以注释该行程序。但如果程序代码很长的时候，一行一行地注释令人觉得难以忍受。VB本身提供了这个功能，在主菜单“视图”选项的“工具栏”下，选中Edit，VB的界面会出现一排工具按钮，其中的手形图标按钮后的两个按钮用于“设置注释块”和“解除注释块”。 
+
+　　4、怎么实现鼠标一移上去就出现小提示窗口的功能？ 
+
+　　VB 里每个控件都有ToolTipText属性，只要加上一行程序就可以了。
+
+　　例如：Label1.ToolTipText = "这是提示！"。 
+
+　　5、 如何获得当前软件的运行磁盘目录和命令行参数？ 
+
+　　VB里面有个系统对象叫App。App.Path就是当前软件的运行目录。而命令行参数存放在一个系统变量里面，叫Command。程序语句如下： 
+
+　　Label1.Caption=App.Path 
+　　Label2.Caption=Command$ 
+
+　　6、我想换掉鼠标显示的形状，怎么做？ 
+
+　　VB提供的系统控件一般都有MousePointer和MouseIcon属性。我们可以寻找自己喜欢的*.ICO,*.CUR文件，实现的程序如下： 
+
+Screen.MousePointer= 99 ’用户鼠标类型 
+Screen.MouseIcon=LoadPicture("C:\ABC\1.ICO") ’读取鼠标的图标文件  
+
+　　7、如何设置程序的错误出口？ 
+
+　　On Error语句用于程序的错误出口处理。一般的处理方法有两种：
+
+　　1) 遇到错误跳转到某一行程序去执行，On Error GoTo someline。 
+
+　　例如： 
+
+　　On Error GoTo ERR_LINE 
+　　... 
+　　Label1.Caption=“正确执行” 
+　　ERR_LINE: 
+　　... 
+　　Label1.Caption=“出错了！”  
+
+　　2) 遇到错误之后忽略当前错误，继续执行，On Error Resume Next。 
+
+　　例如： 
+
+　　On Error Resume Next 
+　　... 
+　　Label1.Caption=“不管对不对都要执行” 
+　　...  
+
+　　8、怎样获得键盘输入和判断敲键的Ascii值？
+
+　　把窗体的KeyPreview属性设置成True，然后在Form_KeyPress 事件里编写程序代码如下： 
+
+　　Private Sub Form_KeyPress(KeyAscii As Integer) 
+　　　Me.Caption = Str(KeyAscii) ‘取得键盘输入的字符
+　　　... 
+　　End Sub  
+
+　　9、我希望窗体一运行就在屏幕的中央，怎么实现？ 
+
+　　VB的系统对象Screen记录了当前显示模式的高度和宽度，可以利用这个值来设置窗体的位置。 
+
+　　Sub CenterForm(frm As Form) ‘定义过程 
+　　　frm.Move (Screen.width - frm.width) \ 2, (Screen.Height - frm.Height) \ 2 
+　　End Sub 
+
+　　Private Sub Form_Load() 
+　　　CenterForm Me ’调用过程 
+　　End Sub  
+
+　　10、很多软件都有鼠标在文本框TextBox一按下，就选中所有文字的功能，是怎么实现的？ 
+
+　　Private Sub Text1_GotFocus() 
+　　　Text1.SelStart = 0 
+　　　Text1.SelLength = Len(Text1.Text) ’过程调用 
+　　End Sub

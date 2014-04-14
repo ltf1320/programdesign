@@ -1,0 +1,22 @@
+Problem J: 01 issue
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 14  Solved: 5
+[Submit][Status][Web Board]
+Description
+WZY like to slove difficult problem. But as you know,WZY is weak in math. When he come up against a difficult math problem, he always try to get a hand. Now the problem is coming! Let we define x(n) as the sum of all numbers which are positive integers can divied n. and F(n) = x(1) + x(2) + x(3)бн..+x(n).
+
+Input
+The first line of the input contains an integer T which means the number of test cases. Then T lines follow, each line consists of only one positive integers n. You may assume the integer will not exceed 2^31.
+
+Output
+For each test case, you should output one lines of one integer F(n) %2.
+
+Sample Input
+2
+1
+2
+
+Sample Output
+1
+0
+

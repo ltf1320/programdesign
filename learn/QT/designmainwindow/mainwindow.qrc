@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/">
+    <file>images/editcopy.ico</file>
+    <file>images/editcut.ico</file>
+    <file>images/editpaste.ico</file>
+    <file>images/fileopen.ico</file>
+    <file>images/filesave.ico</file>
+    <file>images/filesaveas.ico</file>
+    <file>images/new.ico</file>
+    <file>images/undo.ico</file>
+  </qresource>
+</RCC>

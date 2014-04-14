@@ -1,0 +1,11 @@
+abcd
+abdc
+2 10
+c d 5
+d c 3
+abcz
+abdd
+2 10
+c d 5
+z c 2
+

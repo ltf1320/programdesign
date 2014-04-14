@@ -1,0 +1,6 @@
+C语言的关键字共有32个，根据关键字的作用，可分其为数据类型关键字、控制语句关键字、存储类型关键字和其它关键字四类。
+   （1）数据类型关键字（12个）：char, double, enum, float, int, long, short, signed, struct, union, unsigned, void
+   （2）控制语句关键字（12个）：break, case, continue, default, do, else, for, goto, if, return, switch, while
+   （3）存储类型关键字（4个）：auto, extern, register, static
+   （4）其它关键字（4个）：const, sizeof, typedef, volatile
+

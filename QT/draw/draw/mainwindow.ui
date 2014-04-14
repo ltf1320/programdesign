@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="save"/>
+    <addaction name="open"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="choseAndMove"/>
+   <addaction name="drawLine"/>
+   <addaction name="drawRec"/>
+   <addaction name="drawEllipse"/>
+   <addaction name="combine"/>
+   <addaction name="split"/>
+  </widget>
+  <action name="choseAndMove">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/mouse.png</normaloff>:/icons/icons/mouse.png</iconset>
+   </property>
+   <property name="text">
+    <string>选择和移动</string>
+   </property>
+  </action>
+  <action name="drawLine">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/line.png</normaloff>:/icons/icons/line.png</iconset>
+   </property>
+   <property name="text">
+    <string>画直线</string>
+   </property>
+  </action>
+  <action name="drawRec">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/rec.png</normaloff>:/icons/icons/rec.png</iconset>
+   </property>
+   <property name="text">
+    <string>画矩形</string>
+   </property>
+  </action>
+  <action name="drawEllipse">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/ellipse.png</normaloff>:/icons/icons/ellipse.png</iconset>
+   </property>
+   <property name="text">
+    <string>画圆</string>
+   </property>
+  </action>
+  <action name="combine">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/combine2.png</normaloff>:/icons/icons/combine2.png</iconset>
+   </property>
+   <property name="text">
+    <string>组合</string>
+   </property>
+  </action>
+  <action name="split">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/split.png</normaloff>:/icons/icons/split.png</iconset>
+   </property>
+   <property name="text">
+    <string>拆分</string>
+   </property>
+  </action>
+  <action name="save">
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="open">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

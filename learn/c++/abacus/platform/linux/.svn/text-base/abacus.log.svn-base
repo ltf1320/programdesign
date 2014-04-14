@@ -1,0 +1,84 @@
+====================================
+Create a express with the string: 22^2222
+
+Begin word parse......
+Word parse complete.
+
+Begin syntax parse......
+Syntax parse complete.
+
+Compute result......
+The value of this express is: 1.#INF00
+
+====================================
+Create a express with the string: AreaOfRing(3, 1)
+
+Begin word parse......
+Word parse complete.
+
+Begin syntax parse......
+Syntax parse complete.
+
+Compute result......
+The value of this express is: 25.132741
+
+====================================
+Create a express with the string:  cb(2, 10)
+
+Begin word parse......
+Word parse complete.
+
+Begin syntax parse......
+Syntax parse complete.
+
+Compute result......
+The value of this express is: 45.000000
+
+====================================
+Create a express with the string:  sqrt(2)
+
+Begin word parse......
+Word parse complete.
+
+Begin syntax parse......
+Syntax parse complete.
+
+Compute result......
+The value of this express is: 1.414214
+
+====================================
+Create a express with the string: x
+
+Begin word parse......
+Word parse complete.
+
+Begin syntax parse......
+Syntax parse complete.
+
+Compute result......
+The value of this express is: 45.000000
+
+====================================
+Create a express with the string: y
+
+Begin word parse......
+Word parse complete.
+
+Begin syntax parse......
+Syntax parse complete.
+
+Compute result......
+The value of this express is: 0.000000
+
+====================================
+Create a express with the string: z
+
+Begin word parse......
+Word parse complete.
+
+Begin syntax parse......
+Syntax parse complete.
+
+Compute result......
+The value of this express is: 1.414214
+

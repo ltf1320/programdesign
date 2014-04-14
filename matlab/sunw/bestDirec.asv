@@ -1,0 +1,5 @@
+clear all
+clc
+
+for i=-100:100
+    doData(1.06*2,2,200,i*pi/2)

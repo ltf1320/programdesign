@@ -1,0 +1,5 @@
+clc
+clear all
+[num,sum]=feibonaqi(1);
+
+sum

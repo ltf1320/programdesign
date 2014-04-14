@@ -1,0 +1,29 @@
+Problem I: International meeting
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 6  Solved: 4
+[Submit][Status][Web Board]
+Description
+
+
+As we know, not every country want to signed the environment protection document, that make us very angry. Every country should be responsible for the environment.
+Then comes a meeting, every country should be present, the host make all the people seat around a big circle. Face to face. Then, give all the people a card, they can write down a number freely. After that the host chose one people, number all the people 1 ,2,3¡­.In the clockwise.The host write down a number k, The kth boy getaway, and hand out some money for the environment. Then we will look at the number m he has wrote down, ask the next people get out, if m is positive, the next one is mth people in the left,if m is negative. The next one is mth people in the right. m can¡¯t be 0. The money people should hand out is the divisor¡¯s number of the order he get out.eg. the people 4th get out,he should pay 3.as 1 2 4 is the divisor of 4.
+In this way, every one pay randomly, no country will complain.So we can solve the problem in this way perfectly. We want to know who is the one give the most money and the money he give, if there are more than one. Output the first people¡¯s name.£¨the name will not more than 10 letters£©
+Input
+There are multiple case.
+The first line is two integers. N, K. the number of people and the first people to get away.
+0 < N <= 500 000,0< K <=N.
+Next N line we will give a string and a integer, represent the people¡¯s name and the number he write down.
+Name mth (-100 000 000 <= mth<= 100 000 000).
+Output
+The one give the most money and the money he give.
+Sample Input
+4 2
+Sam    4
+Jam    -3
+Auther  4
+Yuan    1
+
+Sample Output
+Yuan 3
+
+HINT

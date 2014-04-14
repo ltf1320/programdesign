@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 20120621 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP9ED0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/20120621.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\programdesign\MFC\20120621\20120621.cpp"
+"D:\programdesign\MFC\20120621\20120621Doc.cpp"
+"D:\programdesign\MFC\20120621\20120621View.cpp"
+"D:\programdesign\MFC\20120621\Dialog.cpp"
+"D:\programdesign\MFC\20120621\Dialog2.cpp"
+"D:\programdesign\MFC\20120621\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP9ED0.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP9ED1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/20120621.pdb" /debug /machine:I386 /out:"Debug/20120621.exe" /pdbtype:sept 
+.\Debug\20120621.obj
+.\Debug\20120621Doc.obj
+.\Debug\20120621View.obj
+.\Debug\Dialog.obj
+.\Debug\Dialog2.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\20120621.res
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSP9ED1.tmp"
+<h3>Output Window</h3>
+Compiling...
+20120621.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+20120621Doc.cpp
+20120621View.cpp
+Dialog.cpp
+Dialog2.cpp
+MainFrm.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+20120621.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

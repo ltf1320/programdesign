@@ -1,0 +1,14 @@
+使指定窗口总处于其他窗口之上
+将以下代码加入到Form中,这个Form就成为一个在其他所有窗口之上的窗口了.
+
+Private Declare Function SetWindowPos Lib "user32" (ByVal hwnd As Long, ByVal hWndInsertAfter
+As Long, ByVal x As Long, ByVal y As Long, ByVal cx As Long, ByVal cy As Long, ByVal wFlags
+As Long) As Long
+
+Const HWND_TOPMOST = -1
+
+Private Sub Form_Load()
+SetWindowPos Me.hwnd, HWND_TOPMOST, Me.Left / Screen.TwipsPerPixelX _
+, Me.Top \ Screen.TwipsPerPixelY, Me.Width \ Screen.TwipsPerPixelX, _
+Me.Height \ Screen.TwipsPerPixelY, 0
+End Sub

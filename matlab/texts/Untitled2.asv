@@ -1,0 +1,12 @@
+clear all
+clc
+syms x1 x2 x3;
+K1=10*x1-x2-9;
+K2=(-1)*x1+10*x2-2*x3-7;
+K3=(-2)*x2+10*x3-6;
+L1=solve(K1,x2);
+L2=subs(K3,'x2',M1);
+M3=solve(M2
+
+
+

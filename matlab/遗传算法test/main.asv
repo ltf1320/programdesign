@@ -1,0 +1,38 @@
+clc
+clear all
+
+global popsize;
+global mutep;
+global matep;
+
+popsize=50;
+mutep=0.01;
+matep=0.8;
+
+ogeneration=getInitG();
+
+maxFitValue=zeros(popsize);
+FitCode=zeros(popsize,46);
+meanFitValue=zeros(popsize);
+
+
+for i=1:10
+    ngeneration=copy(ogeneration); %¸´ÖÆ
+    for j=1:2:popsize  %½»Åä
+        if isDo(matep)
+            [a b]=cross(ngeneration(j,:),ngeneration(j+1,:));
+            ngeneration(j,:)=a;
+            ngeneration(j+1,:)=b;
+        end
+    end
+    ngeneration=mutation(ngeneration); %±äÒì
+    [fitValue SFitValue]=getFitValue(ngeneration);
+    for j=1:popsize
+        if fitValue(j)>maxFitValue(i)
+            maxFitValue(i)=fitValue(j);
+            FitCode=ngeneration(j,:);
+        end
+    end
+    meanFitValue(i)=mean(fitValue);
+end
+

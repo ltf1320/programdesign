@@ -1,0 +1,57 @@
+
+int last;
+int now;
+
+int max(int a,int b)
+{
+    if(a>b)
+        return a;
+    else return b;
+}
+
+int main()
+{
+    int res;
+    int nres;
+    int P;
+    int i;
+    int flag;
+    while(P=input())
+    {
+        last=input();
+        nres=last;
+        res=0;
+        i=1;
+        flag=0;
+        while(i<P)
+        {
+            now=input();
+            i=i+1;
+            if(flag==0)
+            {
+                if(now<last)
+                {
+                    res=res+last;
+                    flag=1;
+                }
+            }
+            else
+            {
+                if(now>last)
+                {
+                    res=res-last;
+                    flag=0;
+                }
+            }
+            last=now;
+            nres=max(nres,res);
+        }
+        if(flag==0)
+        {
+            res=res+last;
+            nres=max(nres,res);
+        }
+        output(nres);
+    }
+    return 0;
+}

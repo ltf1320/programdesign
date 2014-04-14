@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>用户登录</title>
+  </head>
+  
+  <BODY bgColor=#ffffff leftMargin=0 text=#000000 topMargin=30>
+    <form action="example/LoginServlet" method="get">
+    姓名<input maxlength=10 name=name size=8><br>
+    密码<input type=password name=password size=8><br>
+    验证码<input name=code size=8><br>
+   	<img src="example/CheckCodeServlet" onclick="self.location.reload(optionalArg);"/><br>
+   	<input name=submit type=submit value="提交"/>
+   	<input name=submit2 type=reset value="重置"/>
+  	</form>
+  </body>
+</html>

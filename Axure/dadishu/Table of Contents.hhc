@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Help">
+		<param name="Local" value="chm_start.html">
+        <param name="ImageNumber" value="9">
+		</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mole Attack">
+		<param name="Local" value="Mole_Attack.html">
+        <param name="ImageNumber" value="11">
+		</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Page Notes">
+		<param name="Local" value="chm_notes.html">
+        <param name="ImageNumber" value="39">
+		</OBJECT>
+</UL>
+</BODY></HTML>

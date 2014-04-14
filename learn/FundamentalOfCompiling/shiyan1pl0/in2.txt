@@ -1,0 +1,9 @@
+begin
+x<=$;
+while
+a<0
+do
+b<>9-x;
+end
+#
+

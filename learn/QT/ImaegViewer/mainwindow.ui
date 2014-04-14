@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>576</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>576</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>导航(&amp;F)</string>
+    </property>
+    <addaction name="actOpen"/>
+    <addaction name="actClose"/>
+    <addaction name="actNext"/>
+    <addaction name="actPre"/>
+    <addaction name="separator"/>
+    <addaction name="actQuit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>操作(&amp;O)</string>
+    </property>
+    <addaction name="actL90"/>
+    <addaction name="actR90"/>
+    <addaction name="actLarge"/>
+    <addaction name="actSmall"/>
+    <addaction name="actASize"/>
+    <addaction name="actFSize"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QToolBar" name="fileToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actOpen"/>
+   <addaction name="actNext"/>
+   <addaction name="actPre"/>
+  </widget>
+  <widget class="QToolBar" name="opeToolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actL90"/>
+   <addaction name="actR90"/>
+   <addaction name="actLarge"/>
+   <addaction name="actSmall"/>
+   <addaction name="actASize"/>
+   <addaction name="actFSize"/>
+  </widget>
+  <action name="actOpen">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/images/fileopen.ico</normaloff>:/images/fileopen.ico</iconset>
+   </property>
+   <property name="text">
+    <string>打开(&amp;O)</string>
+   </property>
+  </action>
+  <action name="actClose">
+   <property name="text">
+    <string>关闭(&amp;C)</string>
+   </property>
+  </action>
+  <action name="actNext">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/images/next.ico</normaloff>:/images/next.ico</iconset>
+   </property>
+   <property name="text">
+    <string>下一张(&amp;N)</string>
+   </property>
+  </action>
+  <action name="actPre">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/images/previous.ico</normaloff>:/images/previous.ico</iconset>
+   </property>
+   <property name="text">
+    <string>上一张(&amp;P)</string>
+   </property>
+  </action>
+  <action name="actQuit">
+   <property name="text">
+    <string>退出(&amp;Q)</string>
+   </property>
+  </action>
+  <action name="actL90">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/images/redo.ico</normaloff>:/images/redo.ico</iconset>
+   </property>
+   <property name="text">
+    <string>左转90度(&amp;L)</string>
+   </property>
+  </action>
+  <action name="actR90">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/images/undo.ico</normaloff>:/images/undo.ico</iconset>
+   </property>
+   <property name="text">
+    <string>右转90度(&amp;R)</string>
+   </property>
+  </action>
+  <action name="actLarge">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/images/largen.png</normaloff>:/images/largen.png</iconset>
+   </property>
+   <property name="text">
+    <string>放大(&amp;L)</string>
+   </property>
+  </action>
+  <action name="actSmall">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/images/smallen.png</normaloff>:/images/smallen.png</iconset>
+   </property>
+   <property name="text">
+    <string>缩小(&amp;S)</string>
+   </property>
+  </action>
+  <action name="actASize">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/images/search.ico</normaloff>:/images/search.ico</iconset>
+   </property>
+   <property name="text">
+    <string>显示实际大小(&amp;A)</string>
+   </property>
+  </action>
+  <action name="actFSize">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/images/monitor.ico</normaloff>:/images/monitor.ico</iconset>
+   </property>
+   <property name="text">
+    <string>匹配窗口大小(&amp;P)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,36 @@
+有关数学建模，我们能用到什么软件~！
+有关数学建模，我们能用到什么软件~！我们该用什么软件~！
+以前大一建模时就知道用Matlab，其实那时也就只知道这一个数学软件，但后来经历的多了，渐渐发现其他软件在某一方面会优于matlab。下面把我曾使过的数学软件和大家说说，共享一下。
+=======
+有关数值计算，肯定没得说最好要用matlab,目前matlab最新的版本是Matlab.R2008a。
+
+想下载，看这个帖：
+http://www.ilovematlab.cn/thread-6495-1-1.html
+
+===========
+关于符号计算，我更倾向于使用maple和Mathematica
+因为在符号计算方面我个人感觉这两款软件更强一些，虽然matlab也有符号计算。
+maple最新的版本是Maple 12
+虽然maple 11是较新的，但我还装了maple 7 经典的版本，有些功能和11不一样（而且较好。）
+
+
+
+Mathematica（最新版本是Mathematica6）:
+
+==============
+关于规划方面的问题，无疑lingo 是无敌的。
+lingo最新的版本是lingo 11.
+
+
+
+单纯形法简介:http://www.ilovematlab.cn/thread-7696-1-1.html
+单纯形法实现（GUI based on Matlab）:http://www.ilovematlab.cn/thread-7634-1-1.html
+------------------------
+有关数据分析处理方面的有：
+EViews，SPSS， SAS
+
+
+
+-----------
+其他：
+R语言

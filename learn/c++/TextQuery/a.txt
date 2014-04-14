@@ -1,0 +1,5 @@
+System occurs 4 time(s)
+(line:2) System Information
+(line:8) System Manufacturer: INTELR
+(line:9)        System Model: AWRDACPI
+(line:290) System Devices

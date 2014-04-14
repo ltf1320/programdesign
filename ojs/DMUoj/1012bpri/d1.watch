@@ -1,0 +1,6 @@
+c
+dis[now]
+edge[i]
+mx
+ndis
+ndis+edge[mx].weight

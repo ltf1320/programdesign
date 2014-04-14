@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/button">
+        <file>close.png</file>
+        <file>closeHover.png</file>
+        <file>max.png</file>
+        <file>max1.png</file>
+        <file>min.png</file>
+        <file>min1.png</file>
+        <file>login.png</file>
+        <file>login_bg.png</file>
+        <file>login_2.png</file>
+        <file>login_min.png</file>
+        <file>login_min_2.png</file>
+        <file>login_close_2.png</file>
+        <file>login_close.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,9 @@
+function [ code ] = zip( x )
+%ZIP Summary of this function goes here
+%   Detailed explanation goes here
+
+for i=0:23
+    code(i)
+
+end
+

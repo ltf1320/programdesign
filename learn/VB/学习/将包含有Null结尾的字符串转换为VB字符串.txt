@@ -1,0 +1,11 @@
+将包含有Null结尾的字符串转换为VB字符串
+在VB编程调用Windows API函数时,经常会碰到以Null结尾的字符串,下面是一段将Null结尾字符串转换到VB字符串的函数:
+Public Function LPSTRToVBString$(ByVal s$)
+Dim nullpos&
+nullpos& = InStr(s$, Chr$(0))
+If nullpos > 0 Then
+LPSTRToVBString = Left$(s$, nullpos - 1)
+Else
+LPSTRToVBString = ""
+End If
+End Function

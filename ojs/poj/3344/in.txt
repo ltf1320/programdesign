@@ -1,0 +1,17 @@
+.....c..
+.p..A..t
+D..>T.Pr
+....aP.P
+p.d.C...
+.....p.R
+........
+........
+move 1
+turn right
+move 1
+turn right
+move 1
+turn right
+move 1
+#
+--

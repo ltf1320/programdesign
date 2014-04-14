@@ -1,0 +1,29 @@
+Problem E: stand in line
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 5  Solved: 2
+[Submit][Status][Web Board]
+Description
+N guys are standing in a line. They are so bored that they started to look forward and backward. But some of them are so tall that the two people separated by him can't even see each other. Even if one of the two separated by the tall guy is the longest of the three, as the other is shorter than the middle one, the two is still considered invisible to each other.
+
+However, if the three people mentioned above is of the same height, and there is nobody higher than any of them in between, the three are considered visible to each other.
+
+Given the height of all the people in the line, can you tell me how many pairs of people can see each other?
+
+Input
+There are multiple cases. The first line of each case is an integer N(0<N<=1,000,000), which is the number of people. Then N integers follow, representing the heights. All number shall be within the range of 32-bit integer.
+
+Output
+For each case, there should be one line of output, where an integer shows the number of pairs visible to each other.
+
+Sample Input
+5
+10 4 10 10 8
+
+Sample Output
+6
+
+HINT
+
+The output may exceed the range of 32-bit integer, so it's recommended to use 64-bit integers.
+
+

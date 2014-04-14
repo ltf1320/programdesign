@@ -1,0 +1,3 @@
+function res=SunHighAngle(mon,day,time)
+
+res=sin(40.1)*sin(CWJ(mon,dy));

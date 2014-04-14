@@ -1,0 +1,17 @@
+5 1
+eve 5
+snowwhite 3
+cinderella 3
+chivaslover 4
+sakura 3
+3
+5 2
+longer 1
+lolihunter 0
+yukoogura 32000
+leehyori 32123
+risako 3
+20
+32123
+
+

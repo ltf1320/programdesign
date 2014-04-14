@@ -1,0 +1,7 @@
+function [ new ] = copy( old,fitValue)
+
+for i=1:popsize
+    
+
+end
+

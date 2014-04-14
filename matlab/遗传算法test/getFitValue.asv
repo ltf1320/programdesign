@@ -1,0 +1,7 @@
+function [ fitValue,SFit ] = getFitValue( input_args )
+%GETFITVALUE Summary of this function goes here
+%   Detailed explanation goes here
+
+
+end
+

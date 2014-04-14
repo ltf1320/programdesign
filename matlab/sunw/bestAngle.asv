@@ -1,0 +1,6 @@
+clear all
+clc
+x=[0:floor(pi/2*100)]
+for i=1:100
+    y=doData(x(i),1,200);
+plot(x,y)

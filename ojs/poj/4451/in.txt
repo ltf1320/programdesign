@@ -1,0 +1,10 @@
+2 2 2
+0
+2 2 2
+1
+clothes 1 pants 1
+2 2 2
+2
+clothes 1 pants 1
+pants 1 shoes 1
+0 0 0

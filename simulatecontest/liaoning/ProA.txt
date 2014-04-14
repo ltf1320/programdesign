@@ -1,0 +1,28 @@
+Problem A: Lucky Number
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 15  Solved: 5
+[Submit][Status][Web Board]
+Description
+Mary is a student in a primary school. Today, her math teacher told them something about the square of aninteger. We know the square of n is like this:
+
+
+                                                 
+
+Mary is curious about whether an integern could be represented as a sum of two squares of integers. That means  and a, b are integers. Mary called such integern Lucky Number. 
+
+Now, give you an integer n, your task is to find outwhether n is aLucky Number or not.
+
+Input
+The input file contains a number of test cases, and each test case only contains a non-negative integer n in a single line, n maybe as large as 1000000000009.
+
+Output
+If n is Lucky Number print ¡°Yes¡± in a single line, else print ¡°No¡± (without the quotes).
+
+Sample Input
+10
+5
+
+Sample Output
+Yes
+Yes
+

@@ -1,0 +1,65 @@
+﻿* html .u2_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/分_u2_mouseOver.png");
+}
+
+* html .u2_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/分_u2_normal.png");
+}
+
+* html .u4_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/秒_u4_normal.png");
+}
+
+* html .u6_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/毫秒_u6_normal.png");
+}
+
+* html .u10_mouseDown {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/u10_mouseDown.png");
+}
+
+* html .u10_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/u10_disabled.png");
+}
+
+* html .u10_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/u10_normal.png");
+}
+
+* html .u12_mouseDown {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/u12_mouseDown.png");
+}
+
+* html .u12_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/u12_normal.png");
+}
+
+* html .u14_mouseDown {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/u10_mouseDown.png");
+}
+
+* html .u14_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/u10_normal.png");
+}
+
+* html .u16_mouseDown {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/u16_mouseDown.png");
+}
+
+* html .u16_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="主页_files/u12_normal.png");
+}
+

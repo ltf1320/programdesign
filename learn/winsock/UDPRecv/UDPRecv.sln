@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDPRecv", "UDPRecv\UDPRecv.vcxproj", "{F616652D-AC0E-4271-8F99-2D2E1BEB2DBD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDPtest", "..\UDPtest\UDPtest\UDPtest.vcxproj", "{A4782302-9BFA-41FB-933C-8B9FF55619F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F616652D-AC0E-4271-8F99-2D2E1BEB2DBD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F616652D-AC0E-4271-8F99-2D2E1BEB2DBD}.Debug|Win32.Build.0 = Debug|Win32
+		{F616652D-AC0E-4271-8F99-2D2E1BEB2DBD}.Release|Win32.ActiveCfg = Release|Win32
+		{F616652D-AC0E-4271-8F99-2D2E1BEB2DBD}.Release|Win32.Build.0 = Release|Win32
+		{A4782302-9BFA-41FB-933C-8B9FF55619F9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4782302-9BFA-41FB-933C-8B9FF55619F9}.Debug|Win32.Build.0 = Debug|Win32
+		{A4782302-9BFA-41FB-933C-8B9FF55619F9}.Release|Win32.ActiveCfg = Release|Win32
+		{A4782302-9BFA-41FB-933C-8B9FF55619F9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

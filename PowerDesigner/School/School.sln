@@ -1,0 +1,13 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{A600195B-9032-4C52-96BF-FCDD20B44289}") = "School", "School\School.pdproj", "{E354A2D3-D94D-4067-AEE5-75BB72DD1ABB}"
+EndProject
+Global
+	GlobalSection(PowerDesigner) = preSolution
+		HasSWS = 1
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

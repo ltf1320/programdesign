@@ -1,0 +1,4 @@
+function res=getA(mon,day,time)
+
+sres=-sin(getTimeAngle(time))*cos(CWJ(mon,day))/cos(SunHighAngle(mon,day,time));
+res=arcsin(sre

@@ -1,0 +1,28 @@
+Problem H: Area
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 6  Solved: 4
+[Submit][Status][Web Board]
+Description
+YY is a tall and handsome boy whose family has much money. One day, YY finds that there are several black points on his white wall. He can¡¯t stand the ugly situation which is caused by these black points. He decides to let these black points disappear.  He cut a convex shape from a piece of white paper and adhere it onto the wall so that any other people can¡¯t see the black points. What a wonderful job, he thinks.
+   What¡¯s more, YY wants to save much pieces of paper as possible. Now, you are asked to help him to count the least area of the convex shape. 
+Input
+   The input file consists of several test cases.
+   The first line of the input file contains an integer, T(1<=T<=10) which is the number of the test cases. Each test case contains an integer N(1<=N<=1000) which is the number of the points. Then N lines following have two integers X and Y (0<=X,Y<=1000 ) per line which is the positions of the black points. 
+Output
+   The output file consists of N lines. Each line start with the number of the test case like this ¡°Case #x: ¡±. And then the number of minimum area of the convex shape which is retained one decimal place.
+Sample Input
+2
+3
+0 0
+1 0
+0 1
+4
+0 0
+3 0
+0 3
+1 1
+
+Sample Output
+Case #1: 0.5
+Case #2: 4.5
+

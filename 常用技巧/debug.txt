@@ -1,0 +1,6 @@
+//#define END_
+
+
+#ifndef END_
+	ต๗สิด๚ย๋
+#endif 

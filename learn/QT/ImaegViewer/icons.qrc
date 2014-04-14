@@ -1,0 +1,13 @@
+<RCC>
+  <qresource>
+    <file>images/fileopen.ico</file>
+    <file>images/largen.png</file>
+    <file>images/monitor.ico</file>
+    <file>images/next.ico</file>
+    <file>images/previous.ico</file>
+    <file>images/redo.ico</file>
+    <file>images/search.ico</file>
+    <file>images/smallen.png</file>
+    <file>images/undo.ico</file>
+  </qresource>
+</RCC>

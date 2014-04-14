@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SameLineWidget</class>
+ <widget class="QMainWindow" name="SameLineWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuList">
+    <property name="title">
+     <string>list</string>
+    </property>
+    <addaction name="actNext"/>
+    <addaction name="actPre"/>
+   </widget>
+   <addaction name="menuList"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actNext">
+   <property name="text">
+    <string>下一个</string>
+   </property>
+  </action>
+  <action name="actPre">
+   <property name="text">
+    <string>前一个</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

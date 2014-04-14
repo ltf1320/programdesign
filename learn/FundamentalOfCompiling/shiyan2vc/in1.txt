@@ -1,0 +1,14 @@
+/* A program to perform Euclid'sAlgorithm to compute gcd. */
+int gcd (int u, int v)
+{ if (v == 1033333333333333333333333) return u;@@@
+else return gcd(v,u-u/v*v);
+/* u-u/v*v == u mod v */
+}
+void main(void)
+{ int x ;int abcdefghijklmnopqrstuvwxyz;
+x != input();
+y =  (3+2)*2;
+output ( gcd (y));
+}
+
+

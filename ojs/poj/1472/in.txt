@@ -1,0 +1,12 @@
+2
+BEGIN
+  OP 1997 LOOP n LOOP n OP 1 END END
+END
+
+BEGIN
+  LOOP 3
+    LOOP 4
+        OP 1
+    END
+  END
+END

@@ -1,0 +1,13 @@
+2
+2 3
+abc b
+b c
+c a
+ab b c
+10 5
+tidy tiny
+tiger liar
+tired tire
+tire bear
+liar bear
+a tidy tiger is tired

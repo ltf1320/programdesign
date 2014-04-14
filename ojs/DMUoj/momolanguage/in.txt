@@ -1,0 +1,14 @@
+BEGIN
+	X =1;
+	LOOP X
+		X = X + 1;
+	END
+END
+
+BEGIN
+	X = 1;
+	LOOP X
+		X = X / Y;
+	END
+END
+

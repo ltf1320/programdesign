@@ -1,0 +1,10 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "main", "main.dsp", "{18A69075-3823-40BD-ACE0-0D68CEEE9D47}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

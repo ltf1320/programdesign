@@ -1,0 +1,262 @@
+2
+ring 1
+sword 2
+1
+knife 3: ring 1
+1
+medicine 1
+8
++100
++ring
++ring
++ring
++ring
++ring
++sword
++knife
+
+2
+ring 1
+sword 2
+1
+knife 3: ring 2, sword 2
+1
+medicine 1
+6
++100
++ring
++ring
++sword
++sword
++knife
+
+2
+ring 1
+sword 2
+1
+knife 3: ring 2, sword 2
+1
+medicine 1
+5
++100
++ring
++ring
++sword
++knife
+
+2
+ring 1
+sword 2
+2
+knife 3: ring 1, sword 1
+kkk 3: ring 1, sword 1
+1
+medicine 1
+9
++100
++ring
++ring
++ring
++ring
++sword
++sword
++knife
++kkk
+
+2
+ring 1
+sword 2
+2
+knife 3: ring 1, sword 1
+kkk 2: knife 2, sword 1
+1
+medicine 1
+9
++100
++ring
++ring
++sword
++sword
++knife
++knife
++sword
++kkk
+
+2
+ring 1
+sword 2
+2
+knife 3: ring 1, sword 1
+kkk 2: knife 2, sword 1
+1
+medicine 1
+10
++100
++ring
++ring
++sword
++sword
++knife
++knife
++sword
++kkk
+-kkk
+
+2
+ring 1
+sword 2
+2
+knife 3: ring 1, sword 1
+kkk 2: knife 2, medicine 2
+1
+medicine 1
+11
++100
++ring
++ring
++sword
++sword
++knife
++knife
++medicine
++medicine
++medicine
++kkk
+
+2
+ring 1
+sword 2
+2
+knife 3: ring 1, sword 1
+kkk 2: knife 2, medicine 2
+1
+medicine 1
+12
++100
++ring
++ring
++sword
++sword
++knife
++knife
++medicine
++medicine
++medicine
++kkk
+-kkk
+
+2
+ring 1
+sword 2
+2
+knife 3: ring 1, sword 1
+kkk 2: knife 2, medicine 2
+1
+medicine 1
+10
++100
++ring
++ring
++sword
++sword
++knife
++knife
++medicine
++medicine
++kkk
+
+2
+ring 1
+sword 2
+2
+knife 3: ring 1, sword 1
+kkk 2: knife 2, medicine 2
+1
+medicine 1
+20
++100
++ring
++ring
++sword
++sword
++knife
++knife
++medicine
++medicine
++kkk
++100
++ring
++ring
++sword
++sword
++knife
++knife
++medicine
++medicine
++kkk
+
+2
+ring 1
+sword 2
+2
+knife 3: ring 1, sword 1
+kkk 2: knife 2, medicine 2
+1
+medicine 1
+21
++100
++ring
++ring
++sword
++sword
++knife
++knife
++medicine
++medicine
++medicine
++kkk
++100
++ring
++ring
++sword
++sword
++knife
++knife
++medicine
++medicine
++kkk
+
+2
+ring 1
+sword 2
+1
+knife 3: medicine 1
+1
+medicine 1
+8
++100
++ring
++ring
++ring
++ring
++ring
++medicine
++knife
+
+2
+ring 1
+sword 2
+1
+knife 3: medicine 1
+1
+medicine 1
+9
++100
++ring
++ring
++ring
++ring
++medicine
++medicine
++ring
++knife

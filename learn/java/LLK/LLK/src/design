@@ -1,0 +1,21 @@
+
+GUI£º
+	button pane
+	new game
+	pause
+	time counter
+	tip
+
+
+classes:
+	LLKButton(extend JButton):
+		id:to sign the same image
+		ActionListener
+
+	LLKData:
+		LLKButtons
+		RamdonData()
+		maxn,maxm
+		setMaxn,setMaxm
+		remove(int h,int l)
+	

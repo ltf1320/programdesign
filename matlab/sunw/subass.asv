@@ -1,0 +1,4 @@
+function res=subass(a)
+%光伏组件的数据
+
+res=[1580

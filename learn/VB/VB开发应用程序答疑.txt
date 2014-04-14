@@ -1,0 +1,139 @@
+VB开发应用程序答疑
+
+　　VB以其易于学习、易于开发而深受广大开发人员的喜爱，但是在实际开发时，我们也会遇到很多问题，笔者总结了一些开发中常见的问题，给出了通用的解决方法，希望对VB开发人员有所帮助。 
+
+　　问：如何让VB应用程序中的连接具有超级链接效果？ 
+
+　　答：我们以一个网址链接为例，讲解实现的方法。 
+
+　　首先我们新建一表单,在表单中加入一标签,Caption属性为http://ccidnet.com/，MouseIcon值为操作系统下Curors目录里的Hand.ico文件，MousePointer值为99。 
+
+　　在标签的MouseMove事件中加入如下代码: 
+
+　　Label1.ForeColor=&&HFF 
+
+　　在表单的MouseMove事件中加入如下代码: 
+
+　　Label1.ForeColor=&&HFF0000 
+
+　　在标签的Click事件中加入如下代码: 
+
+　　Dim a As String 
+
+　　a=Shell("Explorer.exe http://ccidnet.com/",3) 
+
+　　问：在VB应用程序中，如何取消窗体右上角的关闭功能？ 
+
+　　答：如果你不想别人使用程序时直接用右上角的关闭功能来关闭程序,可用以下代码来实现该功能。 
+
+　　在Form_Unload事件中加入代码:Cancel=True即可。 
+
+　　即:Private Sub Form_Unload(Cancel As Integer) 
+
+　　 Cancel=True 
+
+　　 End Sub 
+
+　　如果你想在关闭程序时提示是否关闭,可在Form_Unload事件中加入一个判断语句： 
+
+　　Private Sub Form_Unload(Cancel As Integer) 
+
+　　 Cancel=True 
+
+　　 Case Select msgbox "您真的想关闭吗?" ,VbOkCancel 
+
+　　 Case VbOk 
+
+　　 Cancel=False 
+
+　　 Case Else 
+
+　　 Cancel=True 
+
+　　End Select 
+
+　　End Sub 
+
+　　问：如何在VB应用程序下关闭其它运行的Windows程序？ 
+
+　　答：如果你想用自己的程序关闭正在运行的Windows其它程序,可用以下代码来实现。 
+
+　　首先声明两个函数: 
+
+　　Declare Function FindWindow Lib "user32" Alias "FindWindowA" (ByVal lpClassName As String, ByVal lpWindowName As String) As Long 
+
+　　Declare Function PostMessage Lib "user32" Alias "PostMessageA"(ByVal hwnd As Long, ByVal wMsg As Long, ByVal wParam As Long, ByVal lParam As Long) As Long 
+
+　　例如要检测“计算器”程序是否正在运行，如果是则关闭它，可以使用如下代码来实现: 
+
+　　Dim winHwnd As Long 
+
+　　Dim RetVal As Long 
+
+　　winHwnd=FindWindow(vbNullString,"计算器") 
+
+　　If winHwnd〈〉0 Then 
+
+　　RetVal = PostMessage(winHwnd, &&H10, 0&&, 0&&) 
+
+　　If RetVal = 0 Then 
+
+　　MsgBox "关闭计算器出错!" 
+
+　　End If 
+
+　　Else 
+
+　　MsgBox "计算器程序没有运行。" 
+
+　　End If 
+
+　　问：在应用程序中如何编程实现禁用热键(包括Ctrl+Alt+Delete和所有功能键)？ 
+
+　　答：如果你想做个屏保或禁止别人使用热键(包括Ctrl+Alt+Delete),以下代码可以实现： 
+
+　　首先定义一常量： 
+
+　　Private Const SPI_SCREENSAVERRUNNING = 97&& 
+
+　　进行函数声明： 
+
+　　Private Declare Function SystemParametersInfo Lib "user32" Alias "SystemParametersInfoA" (ByVal uAction As Long, ByVal uParam As Long,lpvParam As Any,ByVal fuWinIni As Long) As Long 
+
+　　再定义一个子过程： 
+
+　　Public Sub AllowKeys(bParam As Boolean) 
+
+　　Dim lRetVal As Long, bOld As Boolean 
+
+　　lRetVal = SystemParametersInfo(SPI_SCREENSAVERRUNNING, bParam, bOld, 0&&) 
+
+　　End Sub 
+
+　　最后，在任意事件中加入AllowKeys(True/False),当AllowKeys为真时会禁止所有热键。 
+
+　　问：在VB应用程序中，如何实现窗体的简易移动？ 
+
+　　答：如果你的窗体不需要标题栏,又希望能移动它,像WinAmp一样,有个简易移动,我们可以利用以下代码实现： 
+
+　　Declare Function ReleaseCapture Lib "user32" () As Long 
+
+　　Declare Function SendMessage Lib "user32" Alias "SendMessageA" ( _ 
+
+　　ByVal hwnd As Long, ByVal wMsg As Long, _ 
+
+　　ByVal wParam As Long, lParam As Any) As Long 
+
+　　Public Const HTCAPTION = 2 
+
+　　Public Const WM_NCLBUTTONDOWN = &&HA1 
+
+　　下面是将功能加入窗体的MouseDowm事件中,你也可将其加入其它控件的事件中： 
+
+　　Private Sub Form_MouseDown(Button As Integer, Shift As Integer, X As Single, Y As Single) 
+
+　　‘以下二行代码可加入各控件的MouseDown之中 
+
+　　ReleaseCapture 
+
+　　SendMessage hwnd, WM_NCLBUTTONDOWN, HTCAPTION, 0&&

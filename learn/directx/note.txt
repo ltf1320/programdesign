@@ -1,0 +1,2 @@
+如果要使用messagebox 或者 dialogbox,
+必须把hdc加上去

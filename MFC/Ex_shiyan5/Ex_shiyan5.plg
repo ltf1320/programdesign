@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ex_shiyan5 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP8F7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Ex_shiyan5.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\programdesign\MFC\Ex_shiyan5\Main.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP8F7.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Main.cpp
+D:\programdesign\MFC\Ex_shiyan5\Main.cpp(8) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+
+
+
+<h3>Results</h3>
+Main.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

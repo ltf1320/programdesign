@@ -1,0 +1,8 @@
+function [ mute ] = mutation( genataion )
+
+for i=1:popsize
+    if(isDo(mutep))
+        k=round(rand*46)
+
+end
+
