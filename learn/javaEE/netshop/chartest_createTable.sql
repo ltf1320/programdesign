@@ -1,0 +1,6 @@
+
+CREATE TABLE IF NOT EXISTS `test`.`tt` (
+  `cc` VARCHAR(50) NOT NULL,
+  `dd` VARCHAR(50),
+  PRIMARY KEY (`cc`))
+ENGINE = InnoDB;

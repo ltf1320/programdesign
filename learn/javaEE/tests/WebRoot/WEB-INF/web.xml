@@ -46,6 +46,13 @@
     		<param-name>password</param-name>
     		<param-value>1234</param-value>
     	</init-param></servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mysqlCharset</servlet-name>
+    <servlet-class>my.servlets.mysqlCharset</servlet-class>
+  </servlet>
+
 
 
 
@@ -76,6 +83,10 @@
   <servlet-mapping>
     <servlet-name>LoginServlet</servlet-name>
     <url-pattern>/example/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>mysqlCharset</servlet-name>
+    <url-pattern>/servlet/mysqlCharset</url-pattern>
   </servlet-mapping>
 
 </web-app>

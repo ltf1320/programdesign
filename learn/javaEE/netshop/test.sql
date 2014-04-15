@@ -1,0 +1,24 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+CREATE SCHEMA IF NOT EXISTS `netshop_DB` DEFAULT CHARACTER SET gb2312 COLLATE gb2312_general_ci ;
+USE `netshop_DB` ;
+
+-- -----------------------------------------------------
+-- Table `netshop_DB`.`users`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `netshop_DB`.`users` (
+  `userName` VARCHAR(50) NOT NULL,
+  `pwd` VARCHAR(45) NOT NULL,
+  `sex` CHAR(1) NULL,
+  `pro` VARCHAR(45) NULL,
+  `intres` VARCHAR(100) NULL,
+  `selfIntro` VARCHAR(500) NULL,
+  PRIMARY KEY (`userName`))
+ENGINE = InnoDB;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

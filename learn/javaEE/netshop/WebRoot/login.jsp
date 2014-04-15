@@ -5,13 +5,14 @@
 <html>
   <head>
     
-    <title>My JSP 'login.jsp'</title>
+    <title>用户登录</title>
   </head>
   <p>欢迎访问</p>
   <body>
-  	<form name="loginForm" method="post" action="check.jsp">
+  	<form name="loginForm" method="post" action="servlet/CheckLogin">
   		用户名：<input type="text" name="userName"><BR/>
-  		密码：<input type="password" name="password"/><BR/>
+  		密码：&nbsp;
+  		<input type="password" name="password"/><BR/>
   		<input type="submit" name="submit" value="登陆">
   		<a href="register.jsp">注册</a>
    	</form>

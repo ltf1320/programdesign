@@ -8,7 +8,7 @@
   
   <body >
   
-    <form action="registerComplete.jsp" method="post"> 
+    <form action="servlet/CheckRegister" method="post"> 
     	用户名：<input type="text" name="userName" required="true" pattern="[a-zA-Z0-9]+"/><BR/>
     	密码：<input type="password" name="password" required="true"/><BR/>
     	性别：<input type="radio" name="sex" value="男">男
