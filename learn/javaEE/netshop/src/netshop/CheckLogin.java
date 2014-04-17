@@ -66,10 +66,8 @@ public class CheckLogin extends HttpServlet {
 		}catch(SQLException e)
 		{
 			//out.println("<script>alert(数据库连接错误！"+e.getMessage()+");window.location.href='../login.jsp'</script>");
-			out.println("<script >alert(\"数据库连接错误！" + e.getMessage()
-					+ "\");</script>");
+			out.println("<script>alert('数据库连接错误！');</script>");
 			out.println("<script>window.location.href='../login.jsp';</script>");
 		}
 	}
-
 }

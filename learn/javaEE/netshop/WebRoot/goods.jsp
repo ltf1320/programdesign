@@ -1,9 +1,9 @@
 <%@ page language="java" import="java.util.*" pageEncoding="GB18030"%>
 
 
-<% String userName=(String)session.getAttribute("userName");
-	if(userName==null)
-		response.sendRedirect("login.jsp");
+<% //String userName=(String)session.getAttribute("userName");
+	//if(userName==null)
+	//	response.sendRedirect("login.jsp");
 	 %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
