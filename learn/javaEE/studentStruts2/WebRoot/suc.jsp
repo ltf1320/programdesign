@@ -1,13 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-
-
-<% String id=request.getParameter("id");
-	String name=request.getParameter("name");
-	String pro=request.getParameter("pro");
-	String clas=request.getParameter("clas");
-	String time=request.getParameter("time");
-	
- %>
+<%@ taglib uri="/struts-tags" prefix="s" %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -27,10 +19,10 @@
   </head>
   
   <body>
-    学号:<%=id %><BR>
-	姓名:<%=name %> <BR>
-	专业:<%=pro %><BR>
-	班级:<%=clas %><BR>
-	入学时间:<%=time %><BR>
+    学号:<s:property value="id"/><BR>
+	姓名:<s:property value="name"/> <BR>
+	专业:<s:property value="pro"/><BR>
+	班级:<s:property value="clas"/><BR>
+	入学时间:<s:property value="time"/><BR>
   </body>
 </html>

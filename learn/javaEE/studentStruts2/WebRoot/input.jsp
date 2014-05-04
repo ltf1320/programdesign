@@ -2,7 +2,7 @@
 <%@ page contentType="text/html; charset=UTF-8"%> 
 <%@ page import="javax.sql.*"%>
 <%@ page import="java.sql.*"%>
-
+<%@ taglib uri="/struts-tags" prefix="s" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -10,13 +10,13 @@
 </head>
 
 <body>
- 	<form action="suc.jsp" method="post">
-	学号:<input type="text" name="id"/><BR>
-	姓名:<input type="text" name="name"/><BR>
-	专业:<input type="text" name="pro"/><BR>
-	班级:<input type="text" name="clas"/><BR>
-	入学时间:<input type="text" name="time"/><BR>
-	<input type="submit" value="提交"/>
-	</form>
+ 	<s:form action="/sub" method="post">
+	<s:textfield name="id" label="学号"></s:textfield>
+	<s:textfield name="name" label="姓名"></s:textfield>
+	<s:textfield name="pro" label="专业"></s:textfield>
+	<s:textfield name="clas" label="班级"></s:textfield>
+	<s:textfield name="time" label="入学时间"></s:textfield>
+	<s:submit value="提交" />
+	</s:form>
 </body>
 </html>

@@ -9,6 +9,10 @@
 			<result name="success">/input.jsp</result>
 			<result name="login">/login.jsp</result>
 		</action>
+		<action name="sub" class="SubAction" method="execute">
+			<result name="success">/suc.jsp</result>
+			<result name="login">/input.jsp</result>
+		</action>
 	</package>
 	
 </struts>
