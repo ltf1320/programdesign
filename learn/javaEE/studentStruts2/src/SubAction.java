@@ -1,4 +1,5 @@
 
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class SubAction extends ActionSupport {
@@ -50,6 +51,11 @@ public class SubAction extends ActionSupport {
 	@Override
 	public String execute() throws Exception
 	{
+		if(!name.equals("ltf"))
+		{
+			ActionContext.getContext().getSession().put("error","name is not correct!");
+			return ERROR;
+		}
 		return SUCCESS;
 	}
 }
