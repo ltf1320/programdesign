@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A182FEB7-2FB2-448F-A62C-751F73B8E63B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WaveletStudio.Tests</RootNamespace>
+    <AssemblyName>WaveletStudio.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Blocks\BlockBaseTests.cs" />
+    <Compile Include="Blocks\BlockListTest.cs" />
+    <Compile Include="Blocks\BlocksConnectionTest.cs" />
+    <Compile Include="Blocks\ConvolutionBlockTest.cs" />
+    <Compile Include="Blocks\AbsoluteValueBlockTest.cs" />
+    <Compile Include="Blocks\RelationalOperatorBlockTest.cs" />
+    <Compile Include="Blocks\LogicOperationBlockTest.cs" />
+    <Compile Include="Blocks\ScaleBlockTest.cs" />
+    <Compile Include="Blocks\CustomAttributes\GlobalizedObjectTest.cs" />
+    <Compile Include="Blocks\CustomAttributes\GlobalizedPropertyDescriptorTest.cs" />
+    <Compile Include="Blocks\CustomAttributes\Mocks.cs" />
+    <Compile Include="Blocks\CustomAttributes\TextParameterTest.cs" />
+    <Compile Include="Blocks\CustomAttributes\ParameterTest.cs" />
+    <Compile Include="Blocks\CustomAttributes\TypeConvertersTest.cs" />
+    <Compile Include="Blocks\DemuxBlockTest.cs" />
+    <Compile Include="Blocks\MuxBlockTest.cs" />
+    <Compile Include="Blocks\RepeatBlockTest.cs" />
+    <Compile Include="Blocks\InterpolationBlockTest.cs" />
+    <Compile Include="Blocks\SwitchBlockTest.cs" />
+    <Compile Include="Blocks\UniqueBlockTest.cs" />
+    <Compile Include="Blocks\ShiftBlockTest.cs" />
+    <Compile Include="Blocks\InvertBlockTest.cs" />
+    <Compile Include="Blocks\IDWTBlockTest.cs" />
+    <Compile Include="Blocks\UpSampleBlockTest.cs" />
+    <Compile Include="Blocks\ImportFromTextBlockTest.cs" />
+    <Compile Include="Blocks\SignalExtensionBlockTest.cs" />
+    <Compile Include="Blocks\ExportToCSVBlockTest.cs" />
+    <Compile Include="Blocks\DWTBlockTest.cs" />
+    <Compile Include="Blocks\SampleBasedOperationBlockTest.cs" />
+    <Compile Include="Blocks\RampBlockTest.cs" />
+    <Compile Include="Blocks\FFTBlockTest.cs" />
+    <Compile Include="Blocks\DownSampleBlockTest.cs" />
+    <Compile Include="Blocks\IFFTBlockTest.cs" />
+    <Compile Include="Blocks\NodesTest.cs" />
+    <Compile Include="Blocks\ScalarOperationBlockTest.cs" />
+    <Compile Include="Blocks\GenerateSignalBlockTest.cs" />
+    <Compile Include="Blocks\ImportFromCSVBlockTest.cs" />
+    <Compile Include="FFT\ManagedFFTTests.cs" />
+    <Compile Include="Functions\WaveMathRelationalOperationTests.cs" />
+    <Compile Include="Functions\WaveMathConvolutionTests.cs" />
+    <Compile Include="Functions\WaveMathInterpolationTests.cs" />
+    <Compile Include="Functions\WaveMathLogicOperationTests.cs" />
+    <Compile Include="Functions\WaveMathOperationTests.cs" />
+    <Compile Include="Functions\WaveMathStatisticsTests.cs" />
+    <Compile Include="Functions\WaveMathRoutingTests.cs" />
+    <Compile Include="SignalGeneration\BinaryTest.cs" />
+    <Compile Include="SignalGeneration\CosineTest.cs" />
+    <Compile Include="SignalGeneration\SawtoothTest.cs" />
+    <Compile Include="SignalGeneration\SineTest.cs" />
+    <Compile Include="SignalGeneration\SquareTest.cs" />
+    <Compile Include="SignalGeneration\TriangleTest.cs" />
+    <Compile Include="TestUtils.cs" />
+    <Compile Include="Wavelet\CommonMotherWaveletsTests.cs" />
+    <Compile Include="Wavelet\DecompositionLevelTests.cs" />
+    <Compile Include="Wavelet\DwtTests.cs" />
+    <Compile Include="Wavelet\MotherWaveletTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignalExtensionTests.cs" />
+    <Compile Include="SignalTests.cs" />
+    <Compile Include="Functions\WaveMathGeneralTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\WaveletStudio\WaveletStudio.csproj">
+      <Project>{003D0672-355F-416B-9E88-DC95F0762329}</Project>
+      <Name>WaveletStudio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="example.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sag.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

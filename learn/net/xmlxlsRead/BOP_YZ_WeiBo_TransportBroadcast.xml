@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<ArrayOfNewsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NewsItem>
+    <Id>3707558113728622</Id>
+    <Title>#1034报遗失#：有一乘客9：35左右，从银河电子城打车到</Title>
+    <Links />
+    <Description>#1034报遗失#：有一乘客9：35左右，从银河电子城打车到文峰路下车，将一部白色手机丢在车上了，请知情者与交通广播87853000联系。</Description>
+    <PublishDate>2014-05-07T11:43:20+08:00</PublishDate>
+    <ContentType>text</ContentType>
+    <UserId>1819638285</UserId>
+  </NewsItem>
+  <NewsItem>
+    <Id>3692341590096367</Id>
+    <Title>#1035遗失启事#：有一位乘客在11：20左右，从东站打车</Title>
+    <Links />
+    <Description>#1035遗失启事#：有一位乘客在11：20左右，从东站打车到解放北路下车，将一只包丢在车的后排座位上了，请知情的朋友与交通广播87853000联系。</Description>
+    <PublishDate>2014-03-26T11:58:17+08:00</PublishDate>
+    <ContentType>text</ContentType>
+    <UserId>1819638285</UserId>
+  </NewsItem>
+  <NewsItem>
+    <Id>3692331322083781</Id>
+    <Title>#1035报路况#本台55号信息员提醒 ：江都区新都路张纲转</Title>
+    <Links />
+    <Description>#1035报路况#本台55号信息员提醒 ：江都区新都路张纲转盘处，两车相擦，影响了由南向北的车道，请过往车辆注意避让。</Description>
+    <PublishDate>2014-03-26T11:17:30+08:00</PublishDate>
+    <ContentType>text</ContentType>
+    <UserId>1819638285</UserId>
+  </NewsItem>
+  <NewsItem>
+    <Id>3692283809062414</Id>
+    <Title>#1035报路况# 早高峰，文昌路车流量比较大，京华大酒店至</Title>
+    <Links />
+    <Description>#1035报路况# 早高峰，文昌路车流量比较大，京华大酒店至石塔寺双向车辆积压严重，有条件的车友提前绕行</Description>
+    <PublishDate>2014-03-26T08:08:42+08:00</PublishDate>
+    <ContentType>text</ContentType>
+    <UserId>1819638285</UserId>
+  </NewsItem>
+</ArrayOfNewsItem>

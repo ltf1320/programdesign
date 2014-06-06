@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+     <constant name="struts.devMode" value="true" />
+     
+     <constant name="struts.custom.i18n.resources" value="RegisterAction.properties"></constant>
+          
+    <package name="demo" extends="struts-default">      
+      <action name="register" class="com.struts2.validation.RegisterAction">
+            <result name="success">/register_success.jsp</result>
+
+            <result name="input">/register.jsp</result>
+      </action>
+      
+      <action name="test" method="reg" class="com.struts2.validation.RegisterAction">
+            <result name="success">/register_success.jsp</result>
+            <result name="input">/register.jsp</result>
+      </action>
+    </package>    
+   
+</struts>

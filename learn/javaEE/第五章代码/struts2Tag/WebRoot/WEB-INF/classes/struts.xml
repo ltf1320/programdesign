@@ -1,0 +1,21 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="default" extends="struts-default">
+        <action name="append" class="struts2.tag.AppendMergeAction">
+            <result>Append_Merge.jsp</result>
+        </action>
+        <action name="generator" class="struts2.tag.GeneratorMapAction">
+            <result>generator2.jsp</result>
+        </action>
+         <action name="actiontest" class="struts2.tag.ActionTest">
+            <result>Action_success.jsp</result>
+        </action>
+         <action name="CheckBox" class="struts2.tag.CheckBoxAction">
+            <result>checkbox.jsp</result>
+        </action>
+    </package>
+   
+</struts>

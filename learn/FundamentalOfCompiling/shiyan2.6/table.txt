@@ -1,19 +1,23 @@
-Table in function gcd:
+Table in function max:
                 Name      Type Size
-                   u       int    /
-                   v       int    /
+                   a       int    /
+                   b       int    /
 
 Table in function main:
                 Name      Type Size
-abcdefghijklmnopqrst       int    /
-                   x       int    /
+                flag       int    /
+                   i       int    /
+                nres       int    /
+                 res       int    /
+                   P       int    /
 
 Global:
 Functions:
                 Name Parameter
-                 gcd       int       int
+                 max       int       int
                 main      void
 Table in Global:
                 Name      Type Size
-                   s       int    /
+                last       int    /
+                 now       int    /
 

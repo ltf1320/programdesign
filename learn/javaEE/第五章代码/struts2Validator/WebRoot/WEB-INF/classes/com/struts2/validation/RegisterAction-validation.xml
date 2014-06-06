@@ -1,0 +1,59 @@
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN" "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+    
+    <validator type="requiredstring">
+        <param name="fieldName">username</param>
+        <param name="trim">true</param>
+        <message>用户名不能为空</message>
+    </validator>
+    <validator type="regex">
+        <param name="fieldname">username</param>
+        <param name="expression"> <![CDATA[(\w{6,20})]]></param>
+        <message>用户名长度必须在6~20位之间且用户名必须由字母、数字和下划线组成</message>
+    </validator>    
+     <validator type="requiredstring">
+        <param name="fieldName">password</param>
+        <message>密码不能为空</message>
+    </validator>
+     <validator type="requiredstring">
+        <param name="fieldName">repassword</param>
+        <message>再次输入密码不能为空</message>
+    </validator>
+   
+    <validator type="stringlength">
+        <param name="fieldName">password</param>
+        <param name="minLength">6</param>
+        <message>密码不得小于${minLength}位</message>
+    </validator>
+    <validator type="fieldexpression"  >
+        <param name="fieldName">password</param>
+        <param name="expression"><![CDATA[ (password == repassword)]]></param>
+        <message>两次输入的密码必须完全一致！</message>
+    </validator>
+     <validator type="fieldexpression" >
+        <param name="fieldName">password</param>
+        <param name="expression"><![CDATA[ (password != '123456')]]></param>
+        <message>密码太简单</message>
+    </validator>
+    
+    <validator type="date">
+        <param name="fieldName">birthday</param>
+        <param name="min">1900-01-01</param>
+        <param name="max">2010-01-01</param>
+        <message>出生日期必须在1900-01-01和2010-01-01之间</message>
+    </validator>
+    
+    <validator type="email">
+        <param name="fieldName">myemail</param>
+        <message>必须输入有效的电子邮件地址！</message>
+    </validator>
+    
+    <field name="cardid">	
+	  <field-validator type="requiredstring">		
+		<param name="trim">true</param>		
+		<message>身份证号不能为空！</message>
+	  </field-validator>
+    </field> 
+    
+</validators>

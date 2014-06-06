@@ -1,0 +1,8 @@
+LIBRARY svmcall
+EXPORTS
+	mainpredict	@1
+	maintrain	@2
+	mainscale	@3
+	maintrainwithmsg	@4
+	mainscalewithmsg	@5
+	mainpredictwithmsg	@6

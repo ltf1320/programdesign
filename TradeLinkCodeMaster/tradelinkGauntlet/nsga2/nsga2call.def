@@ -1,0 +1,4 @@
+LIBRARY nsga2call
+EXPORTS
+	maintest @1
+	maintestwithmsg @2

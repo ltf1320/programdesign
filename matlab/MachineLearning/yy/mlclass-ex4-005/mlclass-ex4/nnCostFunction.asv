@@ -1,0 +1,89 @@
+function [J, grad] = nnCostFunction(nn_params, ...
+                                   input_layer_size, ...
+                                   hidden_layer_size, ...
+                                   num_labels, ...
+                                   X, y, lambda)
+%NNCOSTFUNCTION Implements the neural network cost function for a two layer
+%neural network which performs classification
+%   [J grad] = NNCOSTFUNCTON(nn_params, hidden_layer_size, num_labels, ...
+%   X, y, lambda) computes the cost and gradient of the neural network. The
+%   parameters for the neural network are "unrolled" into the vector
+%   nn_params and need to be converted back into the weight matrices. 
+% 
+%   The returned parameter grad should be a "unrolled" vector of the
+%   partial derivatives of the neural network.
+%
+
+% Reshape nn_params back into the parameters Theta1 and Theta2, the weight matrices
+% for our 2 layer neural network
+Theta1 = reshape(nn_params(1:hidden_layer_size * (input_layer_size + 1)), ...
+                 hidden_layer_size, (input_layer_size + 1));
+
+Theta2 = reshape(nn_params((1 + (hidden_layer_size * (input_layer_size + 1))):end), ...
+                 num_labels, (hidden_layer_size + 1));
+
+% Setup some useful variables
+m = size(X, 1);
+J_all = zeros(num_labels,1);
+Theta1_grad = zeros(size(Theta1));
+Theta2_grad = zeros(size(Theta2));
+%y_all = zeros(m,num_labels);
+%for k = 1:10
+%    addr =  find(y==k);
+%    y_all(addr(:),k) = 1;
+%end
+K = num_labels;
+e = eye(K);
+y_all = e(y,:);
+a1 = [ones(size(X,1),1),X];
+z2 = a1*Theta1';
+a2 = sigmoid(z2);
+a2 = [ones(size(a2,1),1),a2];
+z3 = a2*Theta2';
+a3 = sigmoid(z3);
+
+for k = 1:num_labels
+    J_all(k) = (-1/m) * ((y_all(:,k)')*log(a3(:,k)) + ((1-y_all(:,k))')*log(1-a3(:,k)));
+end
+J = sum(J_all(:));
+Theta1_ = Theta1(:,2:end);
+Theta2_ = Theta2(:,2:end);
+J = J + (0.5*lambda/m) * (sum(sum(Theta1_.*Theta1_)) + sum(sum(Theta2_.*Theta2_)));
+
+
+%Del2 = zeros(num_labels, size(a2,2));
+%Del1 = zeros(size(a2,2)-1, size(a1,2));
+%for i = 1:m
+%    delta3 = (a3(i,:) - y_all(i,:))';
+%    delta2 = Theta2'*delta3.*sigmoidGradient(z2(i,:)');
+%    Del2 = Del2 + delta3*a2(i,:);
+%    delta2 = delta2(2:end);
+%    Del1 = Del1 + delta2*a1(i,:);
+%end
+%Theta2_grad = (1/m) * Del2;
+%Theta1_grad = (1/m) * Del1;
+%grad = [Theta1_grad(:) ; Theta2_grad(:)];
+
+delta3 = a3-y_all;
+Theta2_ = Theta2(:,2:end);
+delta2 = delta3*Theta2_.*sigmoidGradient(z2);
+Delta2 = delta3'*a2;
+Delta1 = delta2'*a1;
+Theta1_ = [zeros(size(Theta1,1),1),Theta1_];
+Theta2_grad = (1/m) * Delta2;
+Theta1_grad = (1/m) * Delta1;
+grad = [Theta1_grad(:) ; Theta2_grad(:)];
+% Part 3: Implement regularization with the cost function and gradients.
+%
+%         Hint: You can implement this around the code for
+%               backpropagation. That is, you can compute the gradients for
+%               the regularization separately and then add them to Theta1_grad
+%               and Theta2_grad from Part 2.
+%
+% -------------------------------------------------------------
+
+% =========================================================================
+
+% Unroll gradients
+
+end

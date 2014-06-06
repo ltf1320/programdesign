@@ -1,0 +1,118 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>DefaultMap.html</title>
+    <script charset="UTF-8" type="text/javascript" src="https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&mkt=zh">
+    </script>
+    <script type="text/javascript">
+        var map = null;
+        var pinInfobox = null;
+        var stations = null;
+        function GetMap() {
+            var mapOptions = {
+                credentials: "Ar6Ux3p1cKg6Bv47HRuNEfLoiPUAoTaenN570bHQwgOY1P7uDO1im9txMRSYMv9Z",
+                center: new Microsoft.Maps.Location(39.9, 116.4),
+                mapTypeId: Microsoft.Maps.MapTypeId.birdseye,
+                zoom: 10,
+                showScalebar: false
+            };
+            map = new Microsoft.Maps.Map(document.getElementById("mapDiv"), mapOptions);
+            stations = new Array({ j: 39.899136, w: 116.395383, id: "0231" },
+            { j: 39.886492, w: 116.407356, id: "0302" },
+          { j: 39.876184, w: 116.394010, id: "0033" },
+          { j: 39.855959, w: 116.367810, id: "0003" },
+          { j: 39.878193, w: 116.351974, id: "0200" },
+          { j: 39.920993, w: 116.443448, id: "2112" },
+          { j: 39.939554, w: 116.483746, id: "3023" },
+          { j: 39.937119, w: 116.460743, id: "2131" },
+          { j: 39.929287, w: 116.416883, id: "2121" }
+                    );
+            for (var i = 0; i < stations.length; i++) {
+                var location = new Microsoft.Maps.Location(stations[i].j, stations[i].w + 0.00001);
+                var value = 50;
+            //    var pushpinOptions = {
+            //        anchor: new Microsoft.Maps.Point(10, 30), text: value, visible: true
+           //     };
+
+                          var pin = new Microsoft.Maps.Pushpin(location, { text: (i + 1).toString() });
+              //  var pin = new Microsoft.Maps.Pushpin(location, pushpinOptions);
+                var str = "" + i;
+                var pFunc = function (str) { showInfoBox(str) };
+                Microsoft.Maps.Events.addHandler(pin, 'click', delegate(pFunc, str, pin));
+
+                map.entities.push(pin);
+            }
+            //  Microsoft.Maps.Events.addHandler(map, 'viewchange', hideInfobox);
+        }
+
+        function delegate(fn, param, obj) {
+            return function () {
+                fn.call(obj || window, param);
+            }
+        }
+
+        function showInfoBox(stationIndex) {
+            var station = stations[stationIndex];
+            if (pinInfobox) {
+                pinInfobox.setOptions({ visible: true });
+                map.entities.remove(pinInfobox);
+            }
+            pinInfobox = new Microsoft.Maps.Infobox(
+                new Microsoft.Maps.Location(station.j, station.w),
+                {
+                    title:"30132212"+ station.id,
+                    description: "station",
+                    showPointer: true,
+                    titleAction: null,
+                    titleClickHandler: null
+                });
+            pinInfobox.setOptions({ visible: true });
+            map.entities.push(pinInfobox);
+        }
+        function displayInfobox(e) {
+            pinInfobox.setOptions({ visible: true });
+        }
+
+        function hideInfobox(e) {
+            pinInfobox.setOptions({ visible: false });
+        }
+        function ClickGeocode(credentials) {
+            map.getCredentials(MakeGeocodeRequest);
+        }
+    </script>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+    <style>
+        .beijing
+        {
+            font-size:xx-large;
+            float:left;
+        }
+    </style>
+
+</head>
+
+
+
+<body onload="GetMap();">
+    <table>
+        <tr>
+            <td width="80%"></td>
+            <td style="font-size:35px;">
+                北京
+                <img src="/Images/temp.png" />
+                27℃
+            </td>
+        </tr>
+      </table>
+    <table>
+        <tr>
+            <td style="TEXT-ALIGN: center; margin-left: auto; margin-right: auto;">
+                <div id='mapDiv' style="position: absolute; width: 100%; height: 100%; "></div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

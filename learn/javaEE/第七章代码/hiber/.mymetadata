@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="hiber"
+  id="myeclipse.1339400045531"
+  context-root="/hiber"
+  j2ee-spec="5.0"
+  archive="hiber.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="165,10" size="525,315">
+    <action name="append" location="311,58" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="Append_Merge.jsp" />
+      </result>
+    </action>
+    <action name="generator" location="311,233" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="generator2.jsp" />
+      </result>
+    </action>
+    <action name="actiontest" location="66,233" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="Action_success.jsp" />
+      </result>
+    </action>
+    <action name="CheckBox" location="66,128" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="checkbox.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="Append_Merge.jsp" path="Append_Merge.jsp" location="728,30" size="150,55" />
+  <webResource name="generator2.jsp" path="generator2.jsp" location="740,205" size="150,55" />
+  <webResource name="Action_success.jsp" path="Action_success.jsp" location="240,380" size="150,55" />
+  <webResource name="checkbox.jsp" path="checkbox.jsp" location="10,100" size="150,55" />
+</Struts2Diagram>
+

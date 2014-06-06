@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A7D4237E-7C36-4B03-A1EE-29E320EC314F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ATSGlobalIndicator</RootNamespace>
+    <AssemblyName>ATSGlobalIndicator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BaseUtility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ThirdPartLib\ATS\Release\BaseUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonUtilityAlbert, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ThirdPartLib\Other\Release\CommonUtilityAlbert.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BIAS.cs" />
+    <Compile Include="BollingerBand.cs" />
+    <Compile Include="CCI.cs" />
+    <Compile Include="Composite.cs" />
+    <Compile Include="CompositeSVM.cs" />
+    <Compile Include="EMA.cs" />
+    <Compile Include="GenericIndicatorTemplate.cs" />
+    <Compile Include="HighLow.cs" />
+    <Compile Include="KDJ.cs" />
+    <Compile Include="MACD.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RSI.cs" />
+    <Compile Include="SMA.cs" />
+    <Compile Include="SuperEight.cs" />
+    <Compile Include="SuperEightVector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ATSGlobal.API\ATSGlobal.API.csproj">
+      <Project>{FADFCA9F-D0D4-44E1-8FB5-C877464C153F}</Project>
+      <Name>ATSGlobal.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathUtilityCommon\MathUtilityCommon.csproj">
+      <Project>{e0b0b31c-554f-4fd0-a535-ff52293fc9cb}</Project>
+      <Name>MathUtilityCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\svm\libsvm\svm\svmcallcsharp\svmcallcsharp.csproj">
+      <Project>{a6419921-dc2c-412d-962f-e85d0aa7a677}</Project>
+      <Name>svmcallcsharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\wavelet\WaveletStudio\src\WaveletStudio\WaveletStudio.csproj">
+      <Project>{003d0672-355f-416b-9e88-dc95f0762329}</Project>
+      <Name>WaveletStudio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

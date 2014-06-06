@@ -1,0 +1,1 @@
+context.xml和server.xml只配置一个即可。

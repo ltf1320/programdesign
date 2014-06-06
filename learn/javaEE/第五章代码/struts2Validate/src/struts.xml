@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <constant name="struts.i18n.encoding" value="gb2312"/>	
+	<package name="p2" extends="struts-default">		
+		<action name="showPerson" class="com.dlmu.action.ShowPerson" method="inputperson">
+			<result name="success">/showPerson.jsp</result>			
+			<result name="input">/inputPerson.jsp</result>
+		</action>
+		<action name="addUser" class="com.dlmu.action.AddUserAction" > 
+             <!-- 配置出错提示页面 -->
+             <result name="input">/addUser.jsp</result>
+             <!-- 配置成功后跳转页面 -->
+             <result name="success">/success.jsp</result>
+        </action>
+	</package>
+</struts>    

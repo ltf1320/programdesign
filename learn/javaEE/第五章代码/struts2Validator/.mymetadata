@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="struts2Validator"
+  id="myeclipse.1337522113687"
+  context-root="/struts2Validator"
+  j2ee-spec="5.0"
+  archive="struts2Validator.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

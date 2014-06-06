@@ -1,0 +1,1 @@
+<a href="somepage.html" onClick="alert('Hi'); return true;">Click Me</a>
