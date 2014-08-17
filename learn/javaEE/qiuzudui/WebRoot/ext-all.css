@@ -1,0 +1,281 @@
+.topbody{
+	float:left;
+	height:80px;
+	width:100%;
+}
+
+.topbody .logo
+{
+	margin-left:30px;
+	padding:0px;
+	overflow:hidden;
+	float:left;
+	height:80px;
+	width:256px;
+}
+.topbody .logo a
+{
+	height:40px;
+	float:left;
+	width:100px;
+}
+
+.topbody .search
+{
+	float:left;
+	width:500px;
+	height:60px;
+	padding-top: 20px;
+	padding-left:50px;
+	
+}
+
+.topbody .search form
+{
+	width:500px;
+	height:80px;
+	overflow:hidden;
+	display:inline;
+}
+
+.topbody .search .inputtext
+{
+	width:200px;
+	height:80px;
+	display:inline;
+}
+
+.topbody .search .inputbtn
+{
+	width:100px;
+	height:80px;
+	display:inline;
+}
+
+.topbody .search .searchtext
+{
+	float:left;
+	width:600px;
+	height:80px;
+}
+
+.topbody .search .searchBtn
+{
+	float:left;
+	width:200px;
+	height:80px;
+}
+
+.topbody .userPannal
+{
+	float:left;
+	margin-left:150px;
+	width:300px;
+	height:65px;
+	padding-top: 15px
+}
+.topbody .userPannal2
+{
+	float:left;
+	margin-left:150px;
+	width:300px;
+	height:65px;
+	padding-top: 30px
+}
+
+.topbody .userPannal a
+{
+	font-size:13;
+	color:#4400B3;
+}
+
+.template
+{
+	width: 100%;
+min-width: 992px;
+
+height: 120px;
+cursor: default;
+position: relative;
+z-index: 10001;
+color: #858e93;
+}
+
+.nav
+{
+	position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 40px;
+background: -webkit-gradient(linear, left top,right bottom, from(#4400B3), to(#9F88FF));
+	
+}
+
+.nav .cls
+{
+	width:1200px;
+	height:100%;
+	margin-left:60px;
+}
+
+.nav .cls .list
+{
+	list-style-type: disc;
+}
+
+.nav .cls .list li
+{
+	float:left;
+	margin-left:10px;
+}
+
+.nav .cls .list a
+{
+	color:#FFF;
+}
+
+.login
+{
+	text-align:center;
+	margin:auto;
+	padding-top:20px;
+	height:200px;
+	width:400px;
+}
+
+.register
+{
+	text-align:center;
+	margin:auto;
+	padding-top:20px;
+	height:500px;
+	width:600px;
+}
+
+.postbody
+{
+	margin:auto;
+	padding-top:20px;
+	height:500px;
+	width:500px;
+}
+
+.postbody .cls br{display:none}
+
+.postbody .cls
+{
+	text-align:center;
+	margin:auto;
+}
+
+.postbody .title
+{
+	text-align:left;
+	margin:auto;
+}
+.postbody .title label
+{
+	margin-left:20px;
+}
+
+.postbody .title input
+{
+	width:300px;
+	margin-left:20px;
+}
+
+.postbody .text
+{
+	margin-left:20px;
+}
+
+.postbody .text textarea
+{
+	width:400px;
+	height:70px;
+}
+
+.postbody .bq label
+{
+	margin-left:20px;
+	width:80px;
+}
+
+
+.postbody .bq input
+{
+	margin-left:10px;
+	width:80px;
+}
+
+.postbody .submit
+{
+	text-align:center;
+	margin:auto;
+}
+
+.postbody .submit input
+{
+	
+	width:300px;
+	background-color:#00FFFF;
+}
+
+.manage
+{
+	width:100%;
+	height:500px;
+}
+
+.manage .top
+{
+	width:100%;
+	height:50px;
+	margin-top:10px;
+}
+
+.manage .top .msg
+{
+	width:75%;
+	float:left;
+	overflow:hidden;
+	padding-left:5%;
+	
+}
+
+.manage .top .msg a{TEXT-DECORATION:none}a:hover{TEXT-DECORATION:underline}
+
+.manage .top .info
+{
+	width:20%;
+	float:left;
+	margin:auto;
+	height:50px;
+	
+}
+
+.manage .top .info a
+{
+	padding:20px;
+	height:20px;
+	font-size:16;
+}
+
+.manage .msgs 
+{
+	margin-left:50px;
+}
+
+.show
+{
+	width:100%;
+	height:100px;
+	margin-top:30px;
+	margin-left:20px;
+}
+
+.show ¡£unfinded label
+{
+	font-size:20;
+}

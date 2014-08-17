@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+		<action name="search" class="qiuzudui.searchAction" method="execute">
+			<result name="success">/searchShow.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="login" class="qiuzudui.loginAction" method="execute">
+			<result name="success">/index.jsp</result>
+			<result name="input">/users/login.jsp</result>
+		</action>
+		<action name="register" class="qiuzudui.registerAction" method="execute">
+			<result name="success">/users/login.jsp</result>
+			<result name="input">/users/register.jsp</result>
+		</action>
+		<action name="logout" class="qiuzudui.logoutAction" method="execute">
+			<result name="success">/index.jsp</result>
+		</action>
+		<action name="post" class="qiuzudui.postAction" method="execute">
+			<result name="success">/users/manage.jsp</result>
+			<result name="input">/users/post.jsp</result>
+		</action>
+		<action name="delete" class="qiuzudui.deleteAction" method="execute">
+			<result name="success">/users/manage.jsp</result>
+		</action>
+		<action name="alter" class="qiuzudui.alterAction" method="execute">
+			<result name="success">/users/manage.jsp</result>
+			<result name="input">/users/info.jsp</result>
+		</action>
+	</package>
+
+</struts>
+
+

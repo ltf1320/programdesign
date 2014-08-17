@@ -3,12 +3,10 @@ package shop;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 
 import connect.Sqlcon;
 
-import java.sql.*;
 
 import org.apache.struts2.ServletActionContext;
 

@@ -39,6 +39,7 @@ public class LoginAction extends ActionSupport {
 	@Override
 	public String execute() throws Exception
 	{
+		/*
 		String url = "jdbc:mysql://localhost:3306/netshop_db";
 		Connection con=null;
 		ResultSet rs=null;
@@ -76,6 +77,24 @@ public class LoginAction extends ActionSupport {
 			con.close();
 		if(suc)
 			return SUCCESS;
-		return LOGIN;
+			*/
+		boolean suc=false;
+		HttpServletResponse response = (HttpServletResponse)
+				ActionContext.getContext().get(org.apache.struts2.StrutsStatics.HTTP_RESPONSE);
+		PrintWriter out= response.getWriter();
+		if(userName=="ltf1320"&&password=="abcd")
+		{
+			HttpSession session=(HttpSession) ActionContext.getContext().getSession();
+			session.setAttribute("userName", userName);
+			suc=true;
+			out.println("<script>alert('登陆成功！');</script>");
+		}
+		else
+		{
+			out.println("<script>alert('用户名或密码错误！');</script>");
+		}
+		if(suc)
+			return SUCCESS;
+		else return LOGIN;
 	}
 }

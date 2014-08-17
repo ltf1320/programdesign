@@ -1,6 +1,6 @@
 #MyEclipse Hibernate Properties
-#Mon Jun 16 20:52:14 CST 2014
-genBasicCompId=true
+#Tue Jun 17 15:28:09 CST 2014
+genBasicCompId=false
 sessionFactoryName=connect.HibernateSessionFactory
 profile=
 daoSFId=
@@ -10,11 +10,11 @@ reStrategyClass=
 detectO2O=false
 springDaoFile=
 useJavaTypes=true
-keyGenerator=native
+keyGenerator=
 genVersionTag=false
 sessionFactoryId=
 basePersistenceClass=
 genAnnotations=false
 reSettingsFile=
-configFile=/onlineShop_hibernate/src/hibernate.cfg.xml
+configFile=/qiuzudui/src/hibernate.cfg.xml
 createConfigFile=true
