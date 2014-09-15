@@ -1,0 +1,3 @@
+
+in.txt中的内容可以从mysql workbench中的fieldTypes直接复制出来
+功能见代码

@@ -1,0 +1,32 @@
+1,id,taobao_diandian,crm_leads_apply,BIGINT UNSIGNED,20,0,0
+2,gmt_create,taobao_diandian,crm_leads_apply,DATETIME,19,0,0
+3,gmt_modified,taobao_diandian,crm_leads_apply,DATETIME,19,0,0
+4,creator,taobao_diandian,crm_leads_apply,VARCHAR,32,0,0
+5,modifier,taobao_diandian,crm_leads_apply,VARCHAR,32,0,0
+6,brand_name,taobao_diandian,crm_leads_apply,VARCHAR,200,0,0
+7,sub_name,taobao_diandian,crm_leads_apply,VARCHAR,200,0,0
+8,category_id,taobao_diandian,crm_leads_apply,INT,11,0,0
+9,sub_category_id,taobao_diandian,crm_leads_apply,INT,11,0,0
+10,province_id,taobao_diandian,crm_leads_apply,INT,11,0,0
+11,city_id,taobao_diandian,crm_leads_apply,INT,11,0,0
+12,county_id,taobao_diandian,crm_leads_apply,INT,11,0,0
+13,business_area_id,taobao_diandian,crm_leads_apply,INT,11,0,0
+14,address,taobao_diandian,crm_leads_apply,VARCHAR,200,0,0
+15,shop_status,taobao_diandian,crm_leads_apply,TINYINT,4,0,0
+16,shop_owner,taobao_diandian,crm_leads_apply,VARCHAR,64,0,0
+17,shop_owner_mobile,taobao_diandian,crm_leads_apply,VARCHAR,64,0,0
+18,shop_contact,taobao_diandian,crm_leads_apply,VARCHAR,64,0,0
+19,shop_contact_mobile,taobao_diandian,crm_leads_apply,VARCHAR,64,0,0
+20,shop_email,taobao_diandian,crm_leads_apply,VARCHAR,64,0,0
+21,shop_fax,taobao_diandian,crm_leads_apply,VARCHAR,64,0,0
+22,shop_phone,taobao_diandian,crm_leads_apply,VARCHAR,64,0,0
+23,shop_mobile,taobao_diandian,crm_leads_apply,VARCHAR,64,0,0
+24,status,taobao_diandian,crm_leads_apply,TINYINT,4,0,0
+25,reject_reason,taobao_diandian,crm_leads_apply,VARCHAR,512,0,0
+26,apply_type,taobao_diandian,crm_leads_apply,TINYINT,4,0,0
+27,localstore_id,taobao_diandian,crm_leads_apply,VARCHAR,32,0,0
+28,is_check,taobao_diandian,crm_leads_apply,CHAR,1,0,0
+29,auditor_uid,taobao_diandian,crm_leads_apply,BIGINT UNSIGNED,20,0,0
+30,leads_type,taobao_diandian,crm_leads_apply,TINYINT,4,0,0
+31,extend,taobao_diandian,crm_leads_apply,VARCHAR,2000,0,0
+32,audit_level,taobao_diandian,crm_leads_apply,CHAR,1,0,0
